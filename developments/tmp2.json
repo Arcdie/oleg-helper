@@ -1,0 +1,1850 @@
+{
+  "data": {
+    "user": {
+      "ai_agent_type": null,
+      "biography": "🧘🏼‍♀️ Йога та медитації \n🪄 Цвяхостояння\n🎶 Саундхілінг \n🤲🏻 Рейкі\n🎲 Ліла\n🪷 Аромадіагностика \n🌿 Healthy кафе \nЗапис в Direct",
+      "bio_links": [
+        {
+          "title": "Меню healthy-кафе",
+          "lynx_url": "https://l.instagram.com/?u=https%3A%2F%2Fsun-j.choiceqr.com%2F&e=AT1XDifyzDWqBQdvhxkOxX7nnldgKdx40DooXuvIcPhd-faITF3HcULiiqeGWc7A4CcTalKtBI5n1abKUQMkIfZU-4Qwq-ub",
+          "url": "https://sun-j.choiceqr.com",
+          "link_type": "external"
+        }
+      ],
+      "fb_profile_biolink": null,
+      "biography_with_entities": {
+        "raw_text": "🧘🏼‍♀️ Йога та медитації \n🪄 Цвяхостояння\n🎶 Саундхілінг \n🤲🏻 Рейкі\n🎲 Ліла\n🪷 Аромадіагностика \n🌿 Healthy кафе \nЗапис в Direct",
+        "entities": []
+      },
+      "blocked_by_viewer": false,
+      "restricted_by_viewer": null,
+      "country_block": false,
+      "eimu_id": "17843014832693336",
+      "external_url": "https://sun-j.choiceqr.com/",
+      "external_url_linkshimmed": "https://l.instagram.com/?u=https%3A%2F%2Fsun-j.choiceqr.com%2F&e=AT3zGDfNEhK1pruuL_BpMGbnzbWPN4CxgJ1lOG7PWGJ40AwR5d-JItCoEcxDkGYRYqm7xyqg-XrjeBxqMDpTlQTUAFhn_kWN",
+      "edge_followed_by": {
+        "count": 5333
+      },
+      "fbid": "17841450800054387",
+      "followed_by_viewer": false,
+      "edge_follow": {
+        "count": 46
+      },
+      "follows_viewer": false,
+      "full_name": "Йога • Цвяхостояння • Рейкі • Саундхілінг • Ліла",
+      "group_metadata": null,
+      "has_ar_effects": false,
+      "has_clips": true,
+      "has_guides": false,
+      "has_channel": false,
+      "has_blocked_viewer": false,
+      "highlight_reel_count": 33,
+      "has_requested_viewer": false,
+      "hide_like_and_view_counts": false,
+      "id": "50675101335",
+      "is_business_account": true,
+      "is_professional_account": true,
+      "is_supervision_enabled": false,
+      "is_guardian_of_viewer": false,
+      "is_supervised_by_viewer": false,
+      "is_supervised_user": false,
+      "is_embeds_disabled": false,
+      "is_joined_recently": false,
+      "guardian_id": null,
+      "business_address_json": "{\"city_name\": \"Kyiv, Ukraine\", \"city_id\": 111227078906045, \"latitude\": 50.45408, \"longitude\": 30.52161, \"street_address\": \"Mihaylovskaya, 22\", \"zip_code\": null}",
+      "business_contact_method": "UNKNOWN",
+      "business_email": null,
+      "business_phone_number": null,
+      "business_category_name": "None",
+      "overall_category_name": null,
+      "category_enum": "YOGA_PILATES",
+      "category_name": "Студия йоги",
+      "is_private": false,
+      "is_verified": false,
+      "is_verified_by_mv4b": false,
+      "is_regulated_c18": false,
+      "edge_mutual_followed_by": {
+        "count": 0,
+        "edges": []
+      },
+      "pinned_channels_list_count": 0,
+      "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/269604947_944882033131916_5265945565371661232_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=5LeF63PLdcUAX9tpm22&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfC9IRLCkfx6aaXoszGSJKKQg-MoP03MKnksNo05r5Fnuw&oe=658E1AE8&_nc_sid=8b3546",
+      "profile_pic_url_hd": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/269604947_944882033131916_5265945565371661232_n.jpg?stp=dst-jpg_s320x320&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=5LeF63PLdcUAX9tpm22&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfC8K0RH9mNTBRr61EmfNYiPYfibCN7gFwFq7LwSFv3cMg&oe=658E1AE8&_nc_sid=8b3546",
+      "requested_by_viewer": false,
+      "should_show_category": true,
+      "should_show_public_contacts": true,
+      "show_account_transparency_details": true,
+      "remove_message_entrypoint": false,
+      "transparency_label": null,
+      "transparency_product": null,
+      "username": "sun.and.j",
+      "connected_fb_page": null,
+      "pronouns": [],
+      "edge_felix_video_timeline": {
+        "count": 0,
+        "page_info": {
+          "has_next_page": false,
+          "end_cursor": null
+        },
+        "edges": []
+      },
+      "edge_owner_to_timeline_media": {
+        "count": 173,
+        "page_info": {
+          "has_next_page": true,
+          "end_cursor": "QVFDZnhCSHJyaU1QbVp1dVRhZHJyNU5QbGY2TXBPZE1QZDhaSUZob1gzS2QzUExNMlI0ZkR2dm1QSFJNQUZGekVsRmdjTXQwXy0yRnVYb3RxbGgyYkRrdw=="
+        },
+        "edges": [
+          {
+            "node": {
+              "__typename": "GraphVideo",
+              "id": "3264821783881548496",
+              "shortcode": "C1O-h1bN4LQ",
+              "dimensions": {
+                "height": 1920,
+                "width": 1080
+              },
+              "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/412685513_887000322953468_4037078928906341156_n.jpg?stp=dst-jpg_e15_fr_p1080x1080&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=KDJ64gLmocAAX9VRv4c&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfB9NBWmQ03icSrCMZnJPVEcU5BsR-LTYimwyE5m2hQIwA&oe=658B6AD4&_nc_sid=8b3546",
+              "edge_media_to_tagged_user": {
+                "edges": []
+              },
+              "fact_check_overall_rating": null,
+              "fact_check_information": null,
+              "gating_info": null,
+              "sharing_friction_info": {
+                "should_have_sharing_friction": false,
+                "bloks_app_url": null
+              },
+              "media_overlay_info": null,
+              "media_preview": "ABgq1Y6r6jbmUpt9D/SkE3pUVzclGTJxwfz7VhdGtjLeBkPIPpRW7DMzICSAf90UUXArLVaZRJIAeg5/T/69RRyzSfMi5X1yMf41ZPzHkeuMgZx+HX0pWsO5PAv7vn0J/wAP5UUFxFEzKMkDoOf8iii1wuZNrdmLEbEBenPb8auC5jlJwchRkntWbcKAeAKpn09a1tci50Md5Ee4Cnj60Vzi9aKLBc//2Q==",
+              "owner": {
+                "id": "50675101335",
+                "username": "sun.and.j"
+              },
+              "is_video": true,
+              "has_upcoming_event": false,
+              "accessibility_caption": null,
+              "dash_info": {
+                "is_dash_eligible": false,
+                "video_dash_manifest": null,
+                "number_of_qualities": 0
+              },
+              "has_audio": true,
+              "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiMzU0ZjMzZWZlNDM5NGQyYWFlOTNkMWI1MTI3NmQ0MjgzMjY0ODIxNzgzODgxNTQ4NDk2In0sInNpZ25hdHVyZSI6IiJ9",
+              "video_url": "https://scontent-iev1-1.cdninstagram.com/v/t66.30100-16/332012501_2201878526682295_5454505492032655042_n.mp4?_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=Xu008eLE2EwAX94hA7S&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDSNOQqNK03kIB_8Nz57dBZnfyqR9FEMeCJzd16VMmXlg&oe=658B73B1&_nc_sid=8b3546",
+              "video_view_count": 221,
+              "edge_media_to_caption": {
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Кундаліні йога запускає зміни в житті ⭐️ Тож практикуючи Кундаліні, треба приготуватися активно рухатися до нових можливостей.\n\nБудь-яка практика Кундаліні йоги складається з:\n• крії \n• асани\n• дихальні техніки та медитації\n• мантри\n\nКріями в Кундаліні йозі називають комплекси вправ, націлених на досягнення певного ефекту. Наприклад, звʼязок із серцем, усунення страхів, вивільнення від гніву, наповнення енергією.\n\nДія в крії — це стан потоку, вона вільна від будь-яких блоків і саме це відчуття цілісності створює в тілі благодать, центрує думки та робить розум здатним до створення проєкцій.\n\nЧекаємо вас на практиках в Sun&J — розклад в актуальних stories ☀️"
+                    }
+                  }
+                ]
+              },
+              "edge_media_to_comment": {
+                "count": 2
+              },
+              "comments_disabled": false,
+              "taken_at_timestamp": 1703417151,
+              "edge_liked_by": {
+                "count": 31
+              },
+              "edge_media_preview_like": {
+                "count": 31
+              },
+              "location": null,
+              "nft_asset_info": null,
+              "thumbnail_src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/412685513_887000322953468_4037078928906341156_n.jpg?stp=c0.420.1080.1080a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=KDJ64gLmocAAX9VRv4c&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCjDrUqszynnG-ZDEAfnUMpt17f-wjHbMqNLAprUVtg8Q&oe=658B6AD4&_nc_sid=8b3546",
+              "thumbnail_resources": [
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/412685513_887000322953468_4037078928906341156_n.jpg?stp=c0.420.1080.1080a_dst-jpg_e15_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=KDJ64gLmocAAX9VRv4c&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAjxjXfDHiKxCb_ypjnO3wn4Ec_E_O7JL0iqqZU6OuvZA&oe=658B6AD4&_nc_sid=8b3546",
+                  "config_width": 150,
+                  "config_height": 150
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/412685513_887000322953468_4037078928906341156_n.jpg?stp=c0.420.1080.1080a_dst-jpg_e15_s240x240&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=KDJ64gLmocAAX9VRv4c&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCQVALPF33gMIcW_Tys3cVSYUOw5XeGwmIhRx1rt3I7fA&oe=658B6AD4&_nc_sid=8b3546",
+                  "config_width": 240,
+                  "config_height": 240
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/412685513_887000322953468_4037078928906341156_n.jpg?stp=c0.420.1080.1080a_dst-jpg_e15_s320x320&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=KDJ64gLmocAAX9VRv4c&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfB6lkNkwMeEzykUm73iyLcSwPKo4EZADo2IqxK0TM376Q&oe=658B6AD4&_nc_sid=8b3546",
+                  "config_width": 320,
+                  "config_height": 320
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/412685513_887000322953468_4037078928906341156_n.jpg?stp=c0.420.1080.1080a_dst-jpg_e15_s480x480&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=KDJ64gLmocAAX9VRv4c&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAnsQ8q-a0YlGhGWq10nrCfZ-9yJfqisZSRfT8MgeeulQ&oe=658B6AD4&_nc_sid=8b3546",
+                  "config_width": 480,
+                  "config_height": 480
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/412685513_887000322953468_4037078928906341156_n.jpg?stp=c0.420.1080.1080a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=KDJ64gLmocAAX9VRv4c&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCjDrUqszynnG-ZDEAfnUMpt17f-wjHbMqNLAprUVtg8Q&oe=658B6AD4&_nc_sid=8b3546",
+                  "config_width": 640,
+                  "config_height": 640
+                }
+              ],
+              "felix_profile_grid_crop": null,
+              "coauthor_producers": [],
+              "pinned_for_users": [],
+              "viewer_can_reshare": true,
+              "product_type": "clips",
+              "clips_music_attribution_info": {
+                "artist_name": "Mrm Team",
+                "song_name": "Sounds of Universe",
+                "uses_original_audio": false,
+                "should_mute_audio": false,
+                "should_mute_audio_reason": "",
+                "audio_id": "1747650561938506"
+              }
+            }
+          },
+          {
+            "node": {
+              "__typename": "GraphVideo",
+              "id": "3260606743905152559",
+              "shortcode": "C1AAI7ita4v",
+              "dimensions": {
+                "height": 1918,
+                "width": 1080
+              },
+              "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/411847198_1613100846162509_5478555386989105999_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=hD6cOY4Wyl4AX9Z6PTB&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAEJi2KRRKNKDgoMFwvL-blllZdB8GhfC8NmqeOXLPRXQ&oe=658B6391&_nc_sid=8b3546",
+              "edge_media_to_tagged_user": {
+                "edges": []
+              },
+              "fact_check_overall_rating": null,
+              "fact_check_information": null,
+              "gating_info": null,
+              "sharing_friction_info": {
+                "should_have_sharing_friction": false,
+                "bloks_app_url": null
+              },
+              "media_overlay_info": null,
+              "media_preview": null,
+              "owner": {
+                "id": "50675101335",
+                "username": "sun.and.j"
+              },
+              "is_video": true,
+              "has_upcoming_event": false,
+              "accessibility_caption": null,
+              "dash_info": {
+                "is_dash_eligible": false,
+                "video_dash_manifest": null,
+                "number_of_qualities": 0
+              },
+              "has_audio": true,
+              "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiMzU0ZjMzZWZlNDM5NGQyYWFlOTNkMWI1MTI3NmQ0MjgzMjYwNjA2NzQzOTA1MTUyNTU5In0sInNpZ25hdHVyZSI6IiJ9",
+              "video_url": "https://scontent-iev1-1.cdninstagram.com/v/t66.30100-16/316219176_734836211887173_2214694388701793562_n.mp4?_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=m6C4emQYnCAAX_83i1_&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBQOjE8tH7Ox6L80m73AtjyalRDL89pJ9ICgwUPwz9IIQ&oe=658BDEA3&_nc_sid=8b3546",
+              "video_view_count": 192,
+              "edge_media_to_caption": {
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Остання гра Ліла в 2023 році ❤️\n\nЖиття завжди знає, хто ми насправді і чого бажаємо, воно щодня проводить нас стежками до нашого істинного Призначення. \n\nЛіла — це життя в мініатюрі, з усіма стрілами, що здатні піднести догори, та зміями, які завжди можуть спустити донизу. \n\nКожен крок та клітинка — відповідь на ваш запит.\n\nАле чому комусь вдається вийти з гри за 2 години, а хтось ходить колами 8 годин і більше?\nНайскладніше в Лілі — чесно поставити питання та чесно прийняти усі відповіді. Те, від чого у звичайному житті можна сховатися або не думати, розкривається на гральному полі.\n\nПровідник допоможе правильно поставити питання, підтримає вас та спрямує.\n\nЗмінюйте своє життя ✨\n\nНа гру 22 грудня залишилося 1 місце!"
+                    }
+                  }
+                ]
+              },
+              "edge_media_to_comment": {
+                "count": 0
+              },
+              "comments_disabled": false,
+              "taken_at_timestamp": 1702914678,
+              "edge_liked_by": {
+                "count": 59
+              },
+              "edge_media_preview_like": {
+                "count": 59
+              },
+              "location": {
+                "id": "215803552",
+                "has_public_page": true,
+                "name": "Михайлівська Площа",
+                "slug": ""
+              },
+              "nft_asset_info": null,
+              "thumbnail_src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/411847198_1613100846162509_5478555386989105999_n.jpg?stp=c0.1364.3512.3512a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=hD6cOY4Wyl4AX9Z6PTB&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfD87yQBJWk_neUBGay33NJ5OxUl4QdQxqlzAbgT4arRAA&oe=658B6391&_nc_sid=8b3546",
+              "thumbnail_resources": [
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/411847198_1613100846162509_5478555386989105999_n.jpg?stp=c0.1364.3512.3512a_dst-jpg_e15_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=hD6cOY4Wyl4AX9Z6PTB&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDoLil9pAxDiHE2VEGuIfB3ryeFcxoOPEKsVS5Cv2EV-Q&oe=658B6391&_nc_sid=8b3546",
+                  "config_width": 150,
+                  "config_height": 150
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/411847198_1613100846162509_5478555386989105999_n.jpg?stp=c0.1364.3512.3512a_dst-jpg_e15_s240x240&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=hD6cOY4Wyl4AX9Z6PTB&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBwttf3rIb8iLTVUSsHyYME-haOvPdbvoDNjsyN2PLhxA&oe=658B6391&_nc_sid=8b3546",
+                  "config_width": 240,
+                  "config_height": 240
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/411847198_1613100846162509_5478555386989105999_n.jpg?stp=c0.1364.3512.3512a_dst-jpg_e15_s320x320&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=hD6cOY4Wyl4AX9Z6PTB&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAUjShG5jo5epxGOqmiMra4msFmfW-LvXELz2bHZsquog&oe=658B6391&_nc_sid=8b3546",
+                  "config_width": 320,
+                  "config_height": 320
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/411847198_1613100846162509_5478555386989105999_n.jpg?stp=c0.1364.3512.3512a_dst-jpg_e15_s480x480&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=hD6cOY4Wyl4AX9Z6PTB&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAeAcxkoQzDpmkvpkvI1q-oICekh9HADOKyWEtE1uH-tg&oe=658B6391&_nc_sid=8b3546",
+                  "config_width": 480,
+                  "config_height": 480
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/411847198_1613100846162509_5478555386989105999_n.jpg?stp=c0.1364.3512.3512a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=hD6cOY4Wyl4AX9Z6PTB&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfD87yQBJWk_neUBGay33NJ5OxUl4QdQxqlzAbgT4arRAA&oe=658B6391&_nc_sid=8b3546",
+                  "config_width": 640,
+                  "config_height": 640
+                }
+              ],
+              "felix_profile_grid_crop": null,
+              "coauthor_producers": [],
+              "pinned_for_users": [],
+              "viewer_can_reshare": true,
+              "product_type": "clips",
+              "clips_music_attribution_info": {
+                "artist_name": "Symphonic Planet",
+                "song_name": "A Wish",
+                "uses_original_audio": false,
+                "should_mute_audio": false,
+                "should_mute_audio_reason": "",
+                "audio_id": "337555468103851"
+              }
+            }
+          },
+          {
+            "node": {
+              "__typename": "GraphImage",
+              "id": "3259113184077226558",
+              "shortcode": "C06sixjtyI-",
+              "dimensions": {
+                "height": 1350,
+                "width": 1080
+              },
+              "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/411198793_17960175482693336_4806540522217587624_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=X0iBb6LBi-wAX_hehb8&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfADeWVgPwHXvMgsLWy9TY2wDQD1f4BTck5ZkCkLVK790w&oe=658EBC5E&_nc_sid=8b3546",
+              "edge_media_to_tagged_user": {
+                "edges": []
+              },
+              "fact_check_overall_rating": null,
+              "fact_check_information": null,
+              "gating_info": null,
+              "sharing_friction_info": {
+                "should_have_sharing_friction": false,
+                "bloks_app_url": null
+              },
+              "media_overlay_info": null,
+              "media_preview": "ACIq0kQYyKTaSC3YdvpT7I74hnqCR+RrNuDJ5qBScc5A9AecjvkGsUjQlkhycjv6/wBKfGmwYqrc3JjBwehAHTuDVO3uXeQLu4JH40W6gX2IyfrRUDdTz3orKxoamlDMTNn7zn+lUtRHlzLjv/WrkLHZsjXack54xz+BrmrmOWNyJgdx557+4re1zK9i1EVMpL8jJP8A3yD0+tXRHHH82B8hwen8RGMewB5PaprWyERJyDnHVQcfnT7hEVSpA5B6Ioxn3zxS0bEk0VyntRTVkhAGSM4569aKysza5eE5HyoAB7/zrJuC9xMCQCqcZHAIBz+NXQKQ1vaxiWEnZjjA5qO+U+WzjPAHHt6063+9+FWqh6PQaOT3UU1xhj9TRWgH/9k=",
+              "owner": {
+                "id": "50675101335",
+                "username": "sun.and.j"
+              },
+              "is_video": false,
+              "has_upcoming_event": false,
+              "accessibility_caption": null,
+              "edge_media_to_caption": {
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Кожен момент нашого життя супроводжується вибором — що одягнути, що їсти, з ким спілкуватися, який контент споживати 🌪️\n\nТак само, ми обираємо свій стан та почуття. Часто цей вибір є неусвідомленим, продиктованим нашим досвідом, обставинами та вихованням.\n\nЗа рахунок концентрації на повільному виконанні рухів в такт диханню, хатха йога дозволяє перевести фокус уваги із зовнішнього на себе 🧘🏼‍♀️ Саме хатха йога навчає гармонії та балансу, свідомому ставленюю до себе без умов та вимог.\n\nРозвиваючи тіло, відчуваючи його, покращуючи координацію та баланс, ви навчаєтеся розслабляти мозок.\n\nТому хатха йога вважається базовою йогою — це перший крок до медитативних станів.\n\nЧекаємо вас на практиках хатха йоги в Sun&J!"
+                    }
+                  }
+                ]
+              },
+              "edge_media_to_comment": {
+                "count": 0
+              },
+              "comments_disabled": false,
+              "taken_at_timestamp": 1702736588,
+              "edge_liked_by": {
+                "count": 111
+              },
+              "edge_media_preview_like": {
+                "count": 111
+              },
+              "location": {
+                "id": "215803552",
+                "has_public_page": true,
+                "name": "Михайлівська Площа",
+                "slug": ""
+              },
+              "nft_asset_info": null,
+              "thumbnail_src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/411198793_17960175482693336_4806540522217587624_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=X0iBb6LBi-wAX_hehb8&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfByE2lpsCQeOTxBaA5lZt4phdmtetjHCWIN2hKLxfZpLg&oe=658EBC5E&_nc_sid=8b3546",
+              "thumbnail_resources": [
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/411198793_17960175482693336_4806540522217587624_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e15_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=X0iBb6LBi-wAX_hehb8&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfBwetMGJnEK-poytjLrPe5jJJdkdaMW6cmbvNEmR2MUPg&oe=658EBC5E&_nc_sid=8b3546",
+                  "config_width": 150,
+                  "config_height": 150
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/411198793_17960175482693336_4806540522217587624_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e15_s240x240&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=X0iBb6LBi-wAX_hehb8&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfAGjY0H6c9Wtj3G75rCiWzV0ja3YA4D3DQHIKpLqcg5dw&oe=658EBC5E&_nc_sid=8b3546",
+                  "config_width": 240,
+                  "config_height": 240
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/411198793_17960175482693336_4806540522217587624_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e15_s320x320&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=X0iBb6LBi-wAX_hehb8&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfAzsNoyZsB1AV1yDxmDZZsYkiMdeIp36-wV933X7fg71w&oe=658EBC5E&_nc_sid=8b3546",
+                  "config_width": 320,
+                  "config_height": 320
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/411198793_17960175482693336_4806540522217587624_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e15_s480x480&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=X0iBb6LBi-wAX_hehb8&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfAY5UfCemk20YD3U6wnsp4KX4braySgpfNlFLGt4JLX4g&oe=658EBC5E&_nc_sid=8b3546",
+                  "config_width": 480,
+                  "config_height": 480
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/411198793_17960175482693336_4806540522217587624_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=X0iBb6LBi-wAX_hehb8&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfByE2lpsCQeOTxBaA5lZt4phdmtetjHCWIN2hKLxfZpLg&oe=658EBC5E&_nc_sid=8b3546",
+                  "config_width": 640,
+                  "config_height": 640
+                }
+              ],
+              "coauthor_producers": [],
+              "pinned_for_users": [],
+              "viewer_can_reshare": true
+            }
+          },
+          {
+            "node": {
+              "__typename": "GraphVideo",
+              "id": "3257618333376598252",
+              "shortcode": "C01Yp1WtlDs",
+              "dimensions": {
+                "height": 1917,
+                "width": 1080
+              },
+              "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/410051960_683349680267220_7550327091379960489_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=UEMWfKO_2h8AX9j1vaT&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBihOkVpmwB6Y97mFqVdA2oznShrXBz_ecdreLG33XM3g&oe=658B765E&_nc_sid=8b3546",
+              "edge_media_to_tagged_user": {
+                "edges": [
+                  {
+                    "node": {
+                      "user": {
+                        "full_name": "Юлія Лобунець | Йога🇺🇦",
+                        "followed_by_viewer": false,
+                        "id": "181754677",
+                        "is_verified": false,
+                        "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/367505732_265883392973710_7861697728794064712_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=110&_nc_ohc=NQ2XXZ1-b40AX-aGxt-&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCJUIinY5nQxn-ybyAXTahEZl44xXyhVwybL3D8zGQEgA&oe=658F607C&_nc_sid=8b3546",
+                        "username": "yulialobunets"
+                      },
+                      "x": 0,
+                      "y": 0
+                    }
+                  }
+                ]
+              },
+              "fact_check_overall_rating": null,
+              "fact_check_information": null,
+              "gating_info": null,
+              "sharing_friction_info": {
+                "should_have_sharing_friction": false,
+                "bloks_app_url": null
+              },
+              "media_overlay_info": null,
+              "media_preview": "ABgqkEClFKjcSAOMenX8OtZd5EYZTH1O1c+mcCtu2HyJg9uwHofaqN6hNw/8XC+npWC0uavXQgjgGz5h8w//AF0VeC5GKKVyvUtwHKR9uB/6DVC4mDuXA49/oPrU6E+WnP8ACOOB/DWeZdznPI5/OiwLctvIIlDN0PGRRS7POgK9yMj6jmiqSViW9SGBUKqXOWAGMnoCOw4qyIkzkVzTEn8K0bF2PUk/jTegk7moIhyoJXPp/MUVSYkFsccGikUf/9k=",
+              "owner": {
+                "id": "50675101335",
+                "username": "sun.and.j"
+              },
+              "is_video": true,
+              "has_upcoming_event": false,
+              "accessibility_caption": null,
+              "dash_info": {
+                "is_dash_eligible": false,
+                "video_dash_manifest": null,
+                "number_of_qualities": 0
+              },
+              "has_audio": true,
+              "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiMzU0ZjMzZWZlNDM5NGQyYWFlOTNkMWI1MTI3NmQ0MjgzMjU3NjE4MzMzMzc2NTk4MjUyIn0sInNpZ25hdHVyZSI6IiJ9",
+              "video_url": "https://scontent-iev1-1.cdninstagram.com/v/t66.30100-16/316176005_2017991148601031_8976746657927566251_n.mp4?_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=KawuLgjwF54AX_MUWVS&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDLN4le4CDxGMW_gkcyrZ-wtuLVXIHxss304Z7Qi7pHCA&oe=658BB2B0&_nc_sid=8b3546",
+              "video_view_count": 1250,
+              "edge_media_to_caption": {
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Рейкі — універсальна життєва енергія Всесвіту, яка відкривається під час ініціації.\n\nНаправляючи енергію в тіло клієнта, майстер Рейкі стимулює внутрішій потенціал до відновлення, відновлює життєву силу та благополуччя. Детальніше про Рейкі розповідає майстер та засновниця простору Sun&J Юлія Лобунець 💛\n\nЧекаємо вас на сесіях, запис в Direct!\n\nТриває запис на курс «Рейкі 1 ступінь» — запис в direct @lilypavliuk"
+                    }
+                  }
+                ]
+              },
+              "edge_media_to_comment": {
+                "count": 7
+              },
+              "comments_disabled": false,
+              "taken_at_timestamp": 1702558414,
+              "edge_liked_by": {
+                "count": 176
+              },
+              "edge_media_preview_like": {
+                "count": 176
+              },
+              "location": {
+                "id": "215803552",
+                "has_public_page": true,
+                "name": "Михайлівська Площа",
+                "slug": ""
+              },
+              "nft_asset_info": null,
+              "thumbnail_src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/410051960_683349680267220_7550327091379960489_n.jpg?stp=c0.449.1158.1158a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=UEMWfKO_2h8AX9j1vaT&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDkQTi91FMJ_uvdCf-CqlZD1suwl_bQtKR7xV7yG-NfGQ&oe=658B765E&_nc_sid=8b3546",
+              "thumbnail_resources": [
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/410051960_683349680267220_7550327091379960489_n.jpg?stp=c0.449.1158.1158a_dst-jpg_e15_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=UEMWfKO_2h8AX9j1vaT&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCWnvppu8U9OnpJdqbLGbq8ewBViUkutFoubU-bTG4_tQ&oe=658B765E&_nc_sid=8b3546",
+                  "config_width": 150,
+                  "config_height": 150
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/410051960_683349680267220_7550327091379960489_n.jpg?stp=c0.449.1158.1158a_dst-jpg_e15_s240x240&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=UEMWfKO_2h8AX9j1vaT&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAPhoukQKmw9w-XLL_iBAAcAzOkV6aXGPUpkOWjTgZQSg&oe=658B765E&_nc_sid=8b3546",
+                  "config_width": 240,
+                  "config_height": 240
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/410051960_683349680267220_7550327091379960489_n.jpg?stp=c0.449.1158.1158a_dst-jpg_e15_s320x320&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=UEMWfKO_2h8AX9j1vaT&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfA-N2z-NcupLUtX-lm_wDvFeSpEOMwguudF4PDa3MCj5Q&oe=658B765E&_nc_sid=8b3546",
+                  "config_width": 320,
+                  "config_height": 320
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/410051960_683349680267220_7550327091379960489_n.jpg?stp=c0.449.1158.1158a_dst-jpg_e15_s480x480&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=UEMWfKO_2h8AX9j1vaT&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBVBGvNTqqwxXePjfzTf-TIE5qE0Mp9gMV-ytdYlD9Jcw&oe=658B765E&_nc_sid=8b3546",
+                  "config_width": 480,
+                  "config_height": 480
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/410051960_683349680267220_7550327091379960489_n.jpg?stp=c0.449.1158.1158a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=UEMWfKO_2h8AX9j1vaT&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDkQTi91FMJ_uvdCf-CqlZD1suwl_bQtKR7xV7yG-NfGQ&oe=658B765E&_nc_sid=8b3546",
+                  "config_width": 640,
+                  "config_height": 640
+                }
+              ],
+              "felix_profile_grid_crop": null,
+              "coauthor_producers": [],
+              "pinned_for_users": [],
+              "viewer_can_reshare": true,
+              "product_type": "clips",
+              "clips_music_attribution_info": {
+                "artist_name": "sun.and.j",
+                "song_name": "Оригинальное аудио",
+                "uses_original_audio": true,
+                "should_mute_audio": false,
+                "should_mute_audio_reason": "",
+                "audio_id": "743358747654830"
+              }
+            }
+          },
+          {
+            "node": {
+              "__typename": "GraphVideo",
+              "id": "3256884738936694252",
+              "shortcode": "C0yx2oStmXs",
+              "dimensions": {
+                "height": 1920,
+                "width": 1080
+              },
+              "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/410088159_300693566287932_6800491499483133559_n.jpg?stp=dst-jpg_e15_fr_p1080x1080&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=xiBC2dfB4dcAX8Ka01S&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAP_Y1OzU6HBdshDd4RjXTjP-OgCq49GStuRFc66q3gBg&oe=658BE026&_nc_sid=8b3546",
+              "edge_media_to_tagged_user": {
+                "edges": []
+              },
+              "fact_check_overall_rating": null,
+              "fact_check_information": null,
+              "gating_info": null,
+              "sharing_friction_info": {
+                "should_have_sharing_friction": false,
+                "bloks_app_url": null
+              },
+              "media_overlay_info": null,
+              "media_preview": "ABgqzvtJ2FRzuOB9e/51dhUKnPU8k+9MWKGPD8jkgHP6ge/b271bWMfjxnPasG+xBXPBz2HP+c9/0opJ7ZiflOR656//AKqKVr7gNnwzg5OAoII6Zyc9fep45N3y7iq45yQW45zSN8yLgfL+v+TVby889/rRfQDTR1IGBtB6A9f8/wD1zRWeZWRt5wcDAGeh7flRSswFnb5QF6gggZ7Y/wARTQcDc3YVGx4/D+tTRjj8P6U9kBUkAycc5opp/qKKu9gP/9k=",
+              "owner": {
+                "id": "50675101335",
+                "username": "sun.and.j"
+              },
+              "is_video": true,
+              "has_upcoming_event": false,
+              "accessibility_caption": null,
+              "dash_info": {
+                "is_dash_eligible": false,
+                "video_dash_manifest": null,
+                "number_of_qualities": 0
+              },
+              "has_audio": true,
+              "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiMzU0ZjMzZWZlNDM5NGQyYWFlOTNkMWI1MTI3NmQ0MjgzMjU2ODg0NzM4OTM2Njk0MjUyIn0sInNpZ25hdHVyZSI6IiJ9",
+              "video_url": "https://scontent-iev1-1.cdninstagram.com/v/t66.30100-16/48973464_1031956164724221_449797530512643870_n.mp4?_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=XQ97MslC9fEAX9cws_P&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAV9zIRFx9zeovpqfXRXAZkka7mTzmJUagBxYh_Iey_lQ&oe=658BD6CA&_nc_sid=8b3546",
+              "video_view_count": 1043,
+              "edge_media_to_caption": {
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Новорічна вечірка від Sun&J 🎄\n\n2024 рік проходить під арканом Справедливості та під знаком Зеленого Дерев’яного Дракона - цей покровитель вважається яскравим, сильним, а також непередбачуваним. Враховуючи вплив кармічного аспекту та головного архетипу, цей 2024 рік здатен як принести розруху, так і щедро нагородити.\n\nХочемо запросити вас налаштуватися на прийденшій рік розм з нами 🙏 В програмі заходу:\n- Лекція від астролога про 2024 рік - знання Ведичної астрології дадуть вам чітке розуміння, як втілити свої плани найкращим чином\n- Лакшмі Пуджа - ритуал для залучення достатку, процвітання, багатства, удачі та щастя\n- Виготовлення штоллену з живого борошна за авторським рецептом Юлії Лобунець\n- Розклад на метафоричних картах та практичні рекомендації\n\nДе? В просторі Sun&J за адресою Михайлівська, 22\nКоли? 23 грудня о 13.00, тривалість до 4 годин\nВартість: 2 000 грн\n\nПридбати запрошення можна, написавши в Direct 💌"
+                    }
+                  }
+                ]
+              },
+              "edge_media_to_comment": {
+                "count": 0
+              },
+              "comments_disabled": false,
+              "taken_at_timestamp": 1702470997,
+              "edge_liked_by": {
+                "count": 111
+              },
+              "edge_media_preview_like": {
+                "count": 125
+              },
+              "location": {
+                "id": "215803552",
+                "has_public_page": true,
+                "name": "Михайлівська Площа",
+                "slug": ""
+              },
+              "nft_asset_info": null,
+              "thumbnail_src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/410088159_300693566287932_6800491499483133559_n.jpg?stp=c0.420.1080.1080a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=xiBC2dfB4dcAX8Ka01S&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDDKo_oKkm3EMMbTfPi9tRcFKhglI2D-rZXyjXd5QLfIA&oe=658BE026&_nc_sid=8b3546",
+              "thumbnail_resources": [
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/410088159_300693566287932_6800491499483133559_n.jpg?stp=c0.420.1080.1080a_dst-jpg_e15_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=xiBC2dfB4dcAX8Ka01S&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCW915b4PrjqfKpAyd4oNblvZ5xKCGOUv-cbUQLMQW7jQ&oe=658BE026&_nc_sid=8b3546",
+                  "config_width": 150,
+                  "config_height": 150
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/410088159_300693566287932_6800491499483133559_n.jpg?stp=c0.420.1080.1080a_dst-jpg_e15_s240x240&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=xiBC2dfB4dcAX8Ka01S&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDDKFZ10anu8m256L-xVfOWTBGX3ocAxAXcCSwkLf6Peg&oe=658BE026&_nc_sid=8b3546",
+                  "config_width": 240,
+                  "config_height": 240
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/410088159_300693566287932_6800491499483133559_n.jpg?stp=c0.420.1080.1080a_dst-jpg_e15_s320x320&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=xiBC2dfB4dcAX8Ka01S&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBNYHPMVY42HFgaSW8sRZ0jrMhE-uQtnyftJj9NoV0C0g&oe=658BE026&_nc_sid=8b3546",
+                  "config_width": 320,
+                  "config_height": 320
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/410088159_300693566287932_6800491499483133559_n.jpg?stp=c0.420.1080.1080a_dst-jpg_e15_s480x480&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=xiBC2dfB4dcAX8Ka01S&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCZm_qevlO8jB9rJATrYaw07OfG1fmdbj1OYjOBh_LmXg&oe=658BE026&_nc_sid=8b3546",
+                  "config_width": 480,
+                  "config_height": 480
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/410088159_300693566287932_6800491499483133559_n.jpg?stp=c0.420.1080.1080a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=xiBC2dfB4dcAX8Ka01S&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDDKo_oKkm3EMMbTfPi9tRcFKhglI2D-rZXyjXd5QLfIA&oe=658BE026&_nc_sid=8b3546",
+                  "config_width": 640,
+                  "config_height": 640
+                }
+              ],
+              "felix_profile_grid_crop": null,
+              "coauthor_producers": [],
+              "pinned_for_users": [],
+              "viewer_can_reshare": true,
+              "product_type": "clips",
+              "clips_music_attribution_info": {
+                "artist_name": "sun.and.j",
+                "song_name": "Оригинальное аудио",
+                "uses_original_audio": true,
+                "should_mute_audio": false,
+                "should_mute_audio_reason": "",
+                "audio_id": "3195579564082113"
+              }
+            }
+          },
+          {
+            "node": {
+              "__typename": "GraphImage",
+              "id": "3254639508460083098",
+              "shortcode": "C0qzWOdtxea",
+              "dimensions": {
+                "height": 1080,
+                "width": 1080
+              },
+              "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409469514_17959344488693336_2398540295778083149_n.jpg?stp=dst-jpg_e35_s1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=RsRpZ_fqNP0AX_B3ZKg&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfChTQPPLrTQwtxdw3GJzeDL2Jb-0G2EkT-YRxiDSLsG7g&oe=658E2FB5&_nc_sid=8b3546",
+              "edge_media_to_tagged_user": {
+                "edges": []
+              },
+              "fact_check_overall_rating": null,
+              "fact_check_information": null,
+              "gating_info": null,
+              "sharing_friction_info": {
+                "should_have_sharing_friction": false,
+                "bloks_app_url": null
+              },
+              "media_overlay_info": null,
+              "media_preview": "ACoqzs0+IbmA7E4pbe1e4ztPI9akktJYUO7ruGCP51z2sdPNchmj2NgZx1Gev+frVR2wa2dwjkHXdgbj6mqlzamQNKo+UYOPqP8APFCeuopbGej7uKdT3spIoxMcBT788+1RYatLdiU7aM3LBmiQuwIVjgHHFWRciRtj/NkHA9f0pz3JZcMAQRz8wwapQyrbsZBySNv9f/11ndS7hsTb8sCQBjIBxzx/nvV22I8vbkPyeR/X6CqJvhv3thVK4II3HJ6Z98D+lVHvWdSGOxD02BR+Y4P5GqsK4t7c+ZIAv3U6e/vVEu3rUUp5znI/Koty0+UpSH+YVOBV63OQGfG0EnHfjA/U/wAqzJOtalkAcVT2RmupGUMzf3c5I9/fHp/PtQ1oqDLEnFFsSZGJ5OP61bkobGkU1gjPfI981J5Ke3501qjqd+pSduiP/9k=",
+              "owner": {
+                "id": "50675101335",
+                "username": "sun.and.j"
+              },
+              "is_video": false,
+              "has_upcoming_event": false,
+              "accessibility_caption": null,
+              "edge_media_to_caption": {
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Sun&J — не лише про йогу, він про різні підходи до себе, тому що в різноманітних практиках приходять відповіді на глибинні питання.\n\n«Створюючи простір, я мріяла про жінок, які приходячи в Sun&J, активували би в собі себе справжню, добро, яке повинні випромінювати, зв’язок зі своєю душею та інтуїцією. Приходили в одному стані, а виходили в повному контакті із собою та своєю внутрішньою красою, несучи її далі у світ», — каже засновниця простору, Юлія Лобунець.\n\nІ нам вдалося 💛 Чекаємо вас в гостях!"
+                    }
+                  }
+                ]
+              },
+              "edge_media_to_comment": {
+                "count": 1
+              },
+              "comments_disabled": false,
+              "taken_at_timestamp": 1702203285,
+              "edge_liked_by": {
+                "count": 111
+              },
+              "edge_media_preview_like": {
+                "count": 111
+              },
+              "location": {
+                "id": "215803552",
+                "has_public_page": true,
+                "name": "Михайлівська Площа",
+                "slug": ""
+              },
+              "nft_asset_info": null,
+              "thumbnail_src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409469514_17959344488693336_2398540295778083149_n.jpg?stp=dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=RsRpZ_fqNP0AX_B3ZKg&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfArsA5GJ99zJoRuiegn4ED4Sk8QiIfT082e6R8NP9zM4A&oe=658E2FB5&_nc_sid=8b3546",
+              "thumbnail_resources": [
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409469514_17959344488693336_2398540295778083149_n.jpg?stp=dst-jpg_e15_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=RsRpZ_fqNP0AX_B3ZKg&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfCq70sJGmvqGmzsem98YeKAYIBUCDcQHhkfizN6lVKvdw&oe=658E2FB5&_nc_sid=8b3546",
+                  "config_width": 150,
+                  "config_height": 150
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409469514_17959344488693336_2398540295778083149_n.jpg?stp=dst-jpg_e15_s240x240&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=RsRpZ_fqNP0AX_B3ZKg&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfBj4g3dt0FoSPH72slWMryr9M1MLH6WGZkHop7duIpL0Q&oe=658E2FB5&_nc_sid=8b3546",
+                  "config_width": 240,
+                  "config_height": 240
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409469514_17959344488693336_2398540295778083149_n.jpg?stp=dst-jpg_e15_s320x320&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=RsRpZ_fqNP0AX_B3ZKg&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfBczTqRrBWKoJMAxDWnFrfqSXXTQiUgZbZcy9xAa4IKXA&oe=658E2FB5&_nc_sid=8b3546",
+                  "config_width": 320,
+                  "config_height": 320
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409469514_17959344488693336_2398540295778083149_n.jpg?stp=dst-jpg_e15_s480x480&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=RsRpZ_fqNP0AX_B3ZKg&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfCuQGy80RZ2vwnEz8Robz2mqaFA756UbcHEQKNpJYxZgQ&oe=658E2FB5&_nc_sid=8b3546",
+                  "config_width": 480,
+                  "config_height": 480
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409469514_17959344488693336_2398540295778083149_n.jpg?stp=dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=RsRpZ_fqNP0AX_B3ZKg&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfArsA5GJ99zJoRuiegn4ED4Sk8QiIfT082e6R8NP9zM4A&oe=658E2FB5&_nc_sid=8b3546",
+                  "config_width": 640,
+                  "config_height": 640
+                }
+              ],
+              "coauthor_producers": [],
+              "pinned_for_users": [],
+              "viewer_can_reshare": true
+            }
+          },
+          {
+            "node": {
+              "__typename": "GraphSidecar",
+              "id": "3253920237836689218",
+              "shortcode": "C0oPzdftd9C",
+              "dimensions": {
+                "height": 1350,
+                "width": 1080
+              },
+              "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409108508_17959195421693336_8013505871491473009_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=-lVNM3mJbD0AX9X66is&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfBBHYNRFvCPWB04t9d711PZrNKkgFRFyd1vEEid0JfEqA&oe=658F3501&_nc_sid=8b3546",
+              "edge_media_to_tagged_user": {
+                "edges": []
+              },
+              "fact_check_overall_rating": null,
+              "fact_check_information": null,
+              "gating_info": null,
+              "sharing_friction_info": {
+                "should_have_sharing_friction": false,
+                "bloks_app_url": null
+              },
+              "media_overlay_info": null,
+              "media_preview": null,
+              "owner": {
+                "id": "50675101335",
+                "username": "sun.and.j"
+              },
+              "is_video": false,
+              "has_upcoming_event": false,
+              "accessibility_caption": null,
+              "edge_media_to_caption": {
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Ідеї новорічних подарунків від Sun&J 🎄\n\n• Подарунковий сертифікат на послуги — універсальний подарунок, адже можна обрати будь-яку суму, послугу чи набір послуг. Дія не розповсюджується на зону кафе.\n\n• Новорічний бокс — подарунок, зібраний нашими практиками, для втілення бажань та розширення потенціалу. В кожному з боксів: хустка з унікальним принтом Hellisen, мандала, ефірна олія та шавлія.\n\n• Товари для йоги та духовності — в асортименті Sun&J представлені прикраси, пахощі, хустки для втілення бажань, мандали, одяг для йоги та килимки.\n\nПридбати можна в просторі або замовити доставку поштою в будь-яку точку України 💛\n\nДаруй диво з Sun&J!"
+                    }
+                  }
+                ]
+              },
+              "edge_media_to_comment": {
+                "count": 0
+              },
+              "comments_disabled": false,
+              "taken_at_timestamp": 1702117541,
+              "edge_liked_by": {
+                "count": 94
+              },
+              "edge_media_preview_like": {
+                "count": 94
+              },
+              "location": {
+                "id": "215803552",
+                "has_public_page": true,
+                "name": "Михайлівська Площа",
+                "slug": ""
+              },
+              "nft_asset_info": null,
+              "thumbnail_src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409108508_17959195421693336_8013505871491473009_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=-lVNM3mJbD0AX9X66is&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfBFnUGJN3q36U8WNRK4t2Gqjzhdaz0ooSEKKPFEPV48Uw&oe=658F3501&_nc_sid=8b3546",
+              "thumbnail_resources": [
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409108508_17959195421693336_8013505871491473009_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e15_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=-lVNM3mJbD0AX9X66is&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfAGp-6SztReUJi4Lncvn-AWyH1yAsDfA_oMnkIS5Ssdpw&oe=658F3501&_nc_sid=8b3546",
+                  "config_width": 150,
+                  "config_height": 150
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409108508_17959195421693336_8013505871491473009_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e15_s240x240&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=-lVNM3mJbD0AX9X66is&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfDbUfIxhOXtsykrGqCd4fiUQGayWshovYIL1tnWsMqNCw&oe=658F3501&_nc_sid=8b3546",
+                  "config_width": 240,
+                  "config_height": 240
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409108508_17959195421693336_8013505871491473009_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e15_s320x320&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=-lVNM3mJbD0AX9X66is&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfDRdHcXtrkwJblcdH3kSUFdYAWL8y2XNlw5FNc77f_T1g&oe=658F3501&_nc_sid=8b3546",
+                  "config_width": 320,
+                  "config_height": 320
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409108508_17959195421693336_8013505871491473009_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e15_s480x480&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=-lVNM3mJbD0AX9X66is&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfBTLLGzwOQWZLUbyW-088XnQJlIb4Zqjexh8aDs4iOh3w&oe=658F3501&_nc_sid=8b3546",
+                  "config_width": 480,
+                  "config_height": 480
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409108508_17959195421693336_8013505871491473009_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=-lVNM3mJbD0AX9X66is&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfBFnUGJN3q36U8WNRK4t2Gqjzhdaz0ooSEKKPFEPV48Uw&oe=658F3501&_nc_sid=8b3546",
+                  "config_width": 640,
+                  "config_height": 640
+                }
+              ],
+              "coauthor_producers": [],
+              "pinned_for_users": [],
+              "viewer_can_reshare": true,
+              "edge_sidecar_to_children": {
+                "edges": [
+                  {
+                    "node": {
+                      "__typename": "GraphImage",
+                      "id": "3253920230790237059",
+                      "shortcode": "C0oPzW7tYuD",
+                      "dimensions": {
+                        "height": 1350,
+                        "width": 1080
+                      },
+                      "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409108508_17959195421693336_8013505871491473009_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=-lVNM3mJbD0AX9X66is&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfBBHYNRFvCPWB04t9d711PZrNKkgFRFyd1vEEid0JfEqA&oe=658F3501&_nc_sid=8b3546",
+                      "edge_media_to_tagged_user": {
+                        "edges": []
+                      },
+                      "fact_check_overall_rating": null,
+                      "fact_check_information": null,
+                      "gating_info": null,
+                      "sharing_friction_info": {
+                        "should_have_sharing_friction": false,
+                        "bloks_app_url": null
+                      },
+                      "media_overlay_info": null,
+                      "media_preview": "ACIqrzOEBMeQpOCh/hPfHp9OncVFDbCVdxpbkeY4x1PX/wCvVuOMIODj19/qP69azerJM6RQoIHaq8blTmrk20H61CFVulZrsIf9qNFWVggIH0oqrDsTEIp3E5NObLcAVBKMHI6EA/0q0h+TH4VUJc/SxbjYz7qI9hTFjES88nmtJgCNp7/pVCRCv3u/ft70TVtgSWtyVF+UcdhRUq3CAAY6Ad6Ki6JEDJjDZzjH+FOMqD6elVKDWkXbZCux0s4JwBx7damIafap+VB09fxqm3UVYhJzWbkykXfs60VESaKenYZ//9k=",
+                      "owner": {
+                        "id": "50675101335",
+                        "username": "sun.and.j"
+                      },
+                      "is_video": false,
+                      "has_upcoming_event": false,
+                      "accessibility_caption": null
+                    }
+                  },
+                  {
+                    "node": {
+                      "__typename": "GraphImage",
+                      "id": "3253920230790338336",
+                      "shortcode": "C0oPzW7txcg",
+                      "dimensions": {
+                        "height": 1349,
+                        "width": 1080
+                      },
+                      "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409117933_17959195433693336_9007708994887133515_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=kg1sLS_mp-oAX_y5bAv&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfCcgB7WamrHUCAK_69JOR5j5HwBVTngFcbPfd5p7IwZDA&oe=658E6CD0&_nc_sid=8b3546",
+                      "edge_media_to_tagged_user": {
+                        "edges": []
+                      },
+                      "fact_check_overall_rating": null,
+                      "fact_check_information": null,
+                      "gating_info": null,
+                      "sharing_friction_info": {
+                        "should_have_sharing_friction": false,
+                        "bloks_app_url": null
+                      },
+                      "media_overlay_info": null,
+                      "media_preview": "ACIq5w+lPaPb9D0Pt61NCoeTngKM0rMvmDgHHUf/AF/5UxFUjFJVxnLIVAwMnH49vwqvnCn64/qf6UgRFRRRQMuQfKrP+Ap62ruuTxuOST/n/CktQGZV7fzrbby5flPy49eh/wA+lUkS2YLY5x83HBGRj1OPzqKdgSAOwGfqeT/Sr8ywxk+UxD52sO20dfzxnj6Vls24knvU2sVe42iiigCeKZ4TlDj+X5GtBNVbBDqDnuOP05FZY6U2mmImLcE9zx/jUFOptIYtFFFAH//Z",
+                      "owner": {
+                        "id": "50675101335",
+                        "username": "sun.and.j"
+                      },
+                      "is_video": false,
+                      "has_upcoming_event": false,
+                      "accessibility_caption": null
+                    }
+                  },
+                  {
+                    "node": {
+                      "__typename": "GraphImage",
+                      "id": "3253920230815537023",
+                      "shortcode": "C0oPzW9N5d_",
+                      "dimensions": {
+                        "height": 1350,
+                        "width": 1080
+                      },
+                      "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409220233_17959195445693336_8678644000163202093_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=E02al9CROJkAX9CNXtK&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfBImIvnxYwzMMNDlMrIMe9OD8ELdrrvYfZV_hrHlxLBIA&oe=658E78C2&_nc_sid=8b3546",
+                      "edge_media_to_tagged_user": {
+                        "edges": []
+                      },
+                      "fact_check_overall_rating": null,
+                      "fact_check_information": null,
+                      "gating_info": null,
+                      "sharing_friction_info": {
+                        "should_have_sharing_friction": false,
+                        "bloks_app_url": null
+                      },
+                      "media_overlay_info": null,
+                      "media_preview": "ACIq52lxnngf5/rSiPLgHoTV2W3UDjIJxgEjk+47fWmIo4J6An8+KaRj8RmtNrZohz0wMHOAD7/5/Gql1g7WHcYz6kE5NIZWoptFAFkNggnswNaEwzKMc5rMcFetXCd20nsMn9P8iqWugrXLl4z+WVONuM8+3p+VZLndGD6MR+YH+FTSIyyBSc5IwTyME8ZouU2GRMg7WB+Xp3HH50SVmFraFGiiipGW2UsuM81EshH5Y+v1pBSU9hEskoftj6d/emF8gjHBH9c0jdfypB1o31YDaKtKowOB0ooA/9k=",
+                      "owner": {
+                        "id": "50675101335",
+                        "username": "sun.and.j"
+                      },
+                      "is_video": false,
+                      "has_upcoming_event": false,
+                      "accessibility_caption": null
+                    }
+                  },
+                  {
+                    "node": {
+                      "__typename": "GraphImage",
+                      "id": "3253920230865713133",
+                      "shortcode": "C0oPzXANTft",
+                      "dimensions": {
+                        "height": 1349,
+                        "width": 1080
+                      },
+                      "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409117001_17959195454693336_8073208553908943426_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=_ZW7D4BIpskAX_JwXmp&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfBqTMFJlfMRQuP_8vJQxTaQM2tEp28SaUWtVi9rj352nQ&oe=658DF182&_nc_sid=8b3546",
+                      "edge_media_to_tagged_user": {
+                        "edges": []
+                      },
+                      "fact_check_overall_rating": null,
+                      "fact_check_information": null,
+                      "gating_info": null,
+                      "sharing_friction_info": {
+                        "should_have_sharing_friction": false,
+                        "bloks_app_url": null
+                      },
+                      "media_overlay_info": null,
+                      "media_preview": "ACIqwBuycDgd+1AGffnGB1q5ZLuDYIDKQRnnse1O2tCQUJIZ8HHB9RyPU8jFMErlF1Ktt6EdadIm1VI75B+oP+BFSzKyqA2MqzAHjkcE5PU8nr9aa6HyMns/X2Yf4rS2CxXoqOimI1NPkw7J03D9RTbhijfISDk5H5HP0zk47VWgO2Ze2GrZhiWaUkj/AD/hTtcL2+4zURmAZuxyCfukd/8APfJ71KVYxMOCjgtx6rzx+ANbbW6NwOg4+ntWM3lB0Eecj5ZCc9eh68dz0pONtQUrmRRSsNpIPbiikMmk4f6YrXspixJXhSQCeOOPf+dZMv32/CoTVbMR03nW8RJZwfbr/KsWedfMYx8oWyOMfWqdFD10DzZIzqxJIPJz1oqOilYZ/9k=",
+                      "owner": {
+                        "id": "50675101335",
+                        "username": "sun.and.j"
+                      },
+                      "is_video": false,
+                      "has_upcoming_event": false,
+                      "accessibility_caption": null
+                    }
+                  },
+                  {
+                    "node": {
+                      "__typename": "GraphImage",
+                      "id": "3253920230907790154",
+                      "shortcode": "C0oPzXCt0NK",
+                      "dimensions": {
+                        "height": 1350,
+                        "width": 1080
+                      },
+                      "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409225357_17959195463693336_7724648764634315524_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=49J2Dwep8RwAX8uMBCh&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfAJEzloHR4TcAmc2miefTOn97LfExyuxOiDG0VtLrRX3w&oe=658E648C&_nc_sid=8b3546",
+                      "edge_media_to_tagged_user": {
+                        "edges": []
+                      },
+                      "fact_check_overall_rating": null,
+                      "fact_check_information": null,
+                      "gating_info": null,
+                      "sharing_friction_info": {
+                        "should_have_sharing_friction": false,
+                        "bloks_app_url": null
+                      },
+                      "media_overlay_info": null,
+                      "media_preview": "ACIqjC0oTNIoY9ThfUdf8/rUpjwuVOQO/ekaXWw3YB6UxkXHTJ9qB6nmmu+KAZDt+lFJ51FAi7DNFt8uYlMZ2t1BB5wcdCD3okmQArGd2epxx/8AXNVWPFLNKp5QbRgce9IdtRpfnGevao2OaSHK/OepOT/h9KmmG5dw7d/89jTsTzFeijNFIsk3UxzkYpKaaAJY7lVUJIPu916n61GZwHygO33/APrVGaaaZNi15sX939TRVOii4rH/2Q==",
+                      "owner": {
+                        "id": "50675101335",
+                        "username": "sun.and.j"
+                      },
+                      "is_video": false,
+                      "has_upcoming_event": false,
+                      "accessibility_caption": null
+                    }
+                  },
+                  {
+                    "node": {
+                      "__typename": "GraphImage",
+                      "id": "3253920230798737942",
+                      "shortcode": "C0oPzW8N0IW",
+                      "dimensions": {
+                        "height": 1350,
+                        "width": 1080
+                      },
+                      "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409115139_17959195472693336_6353967901777253197_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=wLQY58_nUfwAX9CslLE&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfCCX70aEcbpxSuEJV1OMWXzY7WrHzobMH2jkz2Ad5NUmg&oe=658FD651&_nc_sid=8b3546",
+                      "edge_media_to_tagged_user": {
+                        "edges": []
+                      },
+                      "fact_check_overall_rating": null,
+                      "fact_check_information": null,
+                      "gating_info": null,
+                      "sharing_friction_info": {
+                        "should_have_sharing_friction": false,
+                        "bloks_app_url": null
+                      },
+                      "media_overlay_info": null,
+                      "media_preview": "ACIq0GO0gDsAP8/lUN0dsRIwclc5PHXkn2GOe/pg1GLmIkMWwD7HuCc9+AKq6jOjxgIwbLDIHXoetJDKLy7s7ehPH0BJ/U81as4FnUNtZvxAH59aobWONq5CD5j2/Ht+dXbG7FurBgQN2QMHjNUI2P7Mj/uL/wB9NRVX+21/uH9KKYjKik8xwwH3WJK/7JUAY9cYx+WamS9jFv5JU78Y6cZ/vZ/X1zWYegYfQ/Uf4/40vmHljgluOR+vtU7bDLttLI+9VxtcYJPAB6Dp0JH4VFJG0bbMNuPQev09a2NOMJiCIQT/ABA9Se//ANapGkRJvLU5KKWwecE8cHrnmjZXAy/s8v8AzzX8z/jRVoztnt+n+NFY8/8AWpryPsYaHtT9m7joF6n/AD1NRx96tQgEnPOUB/UVq9CFqJBHtbeuRj+InH8v6n61MZwmXzuZs4A6Z7kk8nHQe/0ovuAqjgenaqbdF/3f/ZmqF72rKfu6JF8aggHMKk9zk8/pRWdRVcq7E80u7P/Z",
+                      "owner": {
+                        "id": "50675101335",
+                        "username": "sun.and.j"
+                      },
+                      "is_video": false,
+                      "has_upcoming_event": false,
+                      "accessibility_caption": null
+                    }
+                  },
+                  {
+                    "node": {
+                      "__typename": "GraphImage",
+                      "id": "3253920230874024475",
+                      "shortcode": "C0oPzXAtAob",
+                      "dimensions": {
+                        "height": 1350,
+                        "width": 1080
+                      },
+                      "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409116924_17959195484693336_6073203407848187879_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=MkP-Ejj__aEAX86eGlM&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfDI_QqdbjzCzZcPUc38MuUXuUjf5GFKoQPYapZpGr6qYg&oe=658FAAAB&_nc_sid=8b3546",
+                      "edge_media_to_tagged_user": {
+                        "edges": []
+                      },
+                      "fact_check_overall_rating": null,
+                      "fact_check_information": null,
+                      "gating_info": null,
+                      "sharing_friction_info": {
+                        "should_have_sharing_friction": false,
+                        "bloks_app_url": null
+                      },
+                      "media_overlay_info": null,
+                      "media_preview": "ACIqrinikAp2MVzHQOFLTcgU/FACUUtFAAFoYYGew5p4p+BSAqxRk8+v4f5/rVnH4ClUBfzz/n6VX+0BpCnYfrVpczsQ3yq5YEZPIoqwJB7UVt7NdzP2j7GeGp5YmoRUgrlOggkMg6CqW4q2SD+Va4papOxLVyiLr3orQxRV87J5Uf/Z",
+                      "owner": {
+                        "id": "50675101335",
+                        "username": "sun.and.j"
+                      },
+                      "is_video": false,
+                      "has_upcoming_event": false,
+                      "accessibility_caption": null
+                    }
+                  },
+                  {
+                    "node": {
+                      "__typename": "GraphImage",
+                      "id": "3253920230915985022",
+                      "shortcode": "C0oPzXDNE5-",
+                      "dimensions": {
+                        "height": 1350,
+                        "width": 1080
+                      },
+                      "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/409217579_17959195496693336_4319489725999170979_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=kMAsS2OY2GoAX_yn5pL&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfDpm1a1k--IzHSqogXbR_ZKqLnuqS2af9QCcrVODyZ4Lg&oe=658E7D0F&_nc_sid=8b3546",
+                      "edge_media_to_tagged_user": {
+                        "edges": []
+                      },
+                      "fact_check_overall_rating": null,
+                      "fact_check_information": null,
+                      "gating_info": null,
+                      "sharing_friction_info": {
+                        "should_have_sharing_friction": false,
+                        "bloks_app_url": null
+                      },
+                      "media_overlay_info": null,
+                      "media_preview": "ACIqhQK5/u4HSo2bzPw/I+9OVASQThqryqUPXp0rJK4iRCRwRxUvbIJFRwqSCScs3+cfjSq+0YY5ptWAfz60U7avqKKi4hBOhjwy7mPuM/XNZjAk/KfwzSbDjOeP8/nRF8r1ovNlF2FZB2pZYgpJY8E9fxqzHOqjrg4OOKqsw3ZB4PalJ7WE2J5a/wB6ijj1/wA/lRUfMRWwrc55qQKMf5zVRatr2qnoDHhwOvSpSqn2+tI4G2oUPA+tSIm2e6/rRUuaKVwP/9k=",
+                      "owner": {
+                        "id": "50675101335",
+                        "username": "sun.and.j"
+                      },
+                      "is_video": false,
+                      "has_upcoming_event": false,
+                      "accessibility_caption": null
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "__typename": "GraphImage",
+              "id": "3253252224577896693",
+              "shortcode": "C0l36lqtwD1",
+              "dimensions": {
+                "height": 1349,
+                "width": 1080
+              },
+              "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408996881_17959073870693336_6463964924437629216_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=cLN-FHxpMc4AX-LMRr2&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfAemu1bxyqpngChbhy6ZYOb9RD3QaZs99g4QutvbQVF0Q&oe=658E58F1&_nc_sid=8b3546",
+              "edge_media_to_tagged_user": {
+                "edges": []
+              },
+              "fact_check_overall_rating": null,
+              "fact_check_information": null,
+              "gating_info": null,
+              "sharing_friction_info": {
+                "should_have_sharing_friction": false,
+                "bloks_app_url": null
+              },
+              "media_overlay_info": null,
+              "media_preview": "ACIqjmiMZAbofTvnjihwMBcZLZI/DgDj26VJct5pXHpkfUHmq0jb+vJHA9q5ex0BvCjGBuxwOeh7dc5PX2H1p8JEvQDjg9enYdfXr7fSksyeWyM478n/ADnFSxvsnC8fMPm4xz7UxGiqAAZUZx2Aop4dfUUUCKcsKryP7w/DJ5H0qlsy5A9en9K0nOB69P51TkjYOWHrnFBSGwW5V+vQ5PuP89aux2y7izDOfWpMbTu7U9efxpiGfZ096KcS+e1FSArruGD34rNuJirlPwzWq1Zt8OVP1qhF3cMexpycCsEOwOASB9a24/uihgTUUUUgP//Z",
+              "owner": {
+                "id": "50675101335",
+                "username": "sun.and.j"
+              },
+              "is_video": false,
+              "has_upcoming_event": false,
+              "accessibility_caption": null,
+              "edge_media_to_caption": {
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Цвяхостояння — практика, яка щоразу доводить, що людина може ВСЕ 🧘🏼‍♀️\n\nНа перших хвилинах цвяхостояння ви відчуєте біль, тиск і почнеться внутрішня боротьба — зійти чи залишитися.\n\nСаме тут все вирішить сила вашого наміру 🙏🏻\n\nВіддавшись процесу і довірившись практику, який добере інструменти так, аби довести вас від болю до вивільнення, ви відчуєте справжню свободу.\n\nЩасливі спостерігати за вашими трансформаціями і завжди чекаємо в Sun&J ☀️"
+                    }
+                  }
+                ]
+              },
+              "edge_media_to_comment": {
+                "count": 0
+              },
+              "comments_disabled": false,
+              "taken_at_timestamp": 1702037908,
+              "edge_liked_by": {
+                "count": 85
+              },
+              "edge_media_preview_like": {
+                "count": 85
+              },
+              "location": {
+                "id": "215803552",
+                "has_public_page": true,
+                "name": "Михайлівська Площа",
+                "slug": ""
+              },
+              "nft_asset_info": null,
+              "thumbnail_src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408996881_17959073870693336_6463964924437629216_n.jpg?stp=c0.179.1440.1440a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=cLN-FHxpMc4AX-LMRr2&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfDdSog9d0QzzRCVx8KU4RSiaYS0ojy7TR1s7KLBokusxA&oe=658E58F1&_nc_sid=8b3546",
+              "thumbnail_resources": [
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408996881_17959073870693336_6463964924437629216_n.jpg?stp=c0.179.1440.1440a_dst-jpg_e15_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=cLN-FHxpMc4AX-LMRr2&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfB0qpkRa91htBX82YSWQ43x02AfFoPyw_XnsPFdRbzmmA&oe=658E58F1&_nc_sid=8b3546",
+                  "config_width": 150,
+                  "config_height": 150
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408996881_17959073870693336_6463964924437629216_n.jpg?stp=c0.179.1440.1440a_dst-jpg_e15_s240x240&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=cLN-FHxpMc4AX-LMRr2&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfDZa-oGBhp6oqK6gaJ0_dJYfAowdxLUS_eFC-jHp-2NYg&oe=658E58F1&_nc_sid=8b3546",
+                  "config_width": 240,
+                  "config_height": 240
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408996881_17959073870693336_6463964924437629216_n.jpg?stp=c0.179.1440.1440a_dst-jpg_e15_s320x320&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=cLN-FHxpMc4AX-LMRr2&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfBsYe8ruoHbEASsUjPZZFsQ-laFwl-oE_-m9oT2s9Z3Uw&oe=658E58F1&_nc_sid=8b3546",
+                  "config_width": 320,
+                  "config_height": 320
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408996881_17959073870693336_6463964924437629216_n.jpg?stp=c0.179.1440.1440a_dst-jpg_e15_s480x480&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=cLN-FHxpMc4AX-LMRr2&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfC8vOTuU2pKt1a6XpQy1pJ6HNTXIQPwnyzyrtk28fizLA&oe=658E58F1&_nc_sid=8b3546",
+                  "config_width": 480,
+                  "config_height": 480
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408996881_17959073870693336_6463964924437629216_n.jpg?stp=c0.179.1440.1440a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=cLN-FHxpMc4AX-LMRr2&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfDdSog9d0QzzRCVx8KU4RSiaYS0ojy7TR1s7KLBokusxA&oe=658E58F1&_nc_sid=8b3546",
+                  "config_width": 640,
+                  "config_height": 640
+                }
+              ],
+              "coauthor_producers": [],
+              "pinned_for_users": [],
+              "viewer_can_reshare": true
+            }
+          },
+          {
+            "node": {
+              "__typename": "GraphVideo",
+              "id": "3253154124051994204",
+              "shortcode": "C0lhnCbt1Zc",
+              "dimensions": {
+                "height": 1333,
+                "width": 750
+              },
+              "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/408428018_1507345526474693_3154975497298928536_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=WVNzyqOFg4wAX8MM0B-&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBYV0qV88vuc_MpGEdxR99WXWurdVbTsDJYLsgIZ9EYGw&oe=658BB466&_nc_sid=8b3546",
+              "edge_media_to_tagged_user": {
+                "edges": []
+              },
+              "fact_check_overall_rating": null,
+              "fact_check_information": null,
+              "gating_info": null,
+              "sharing_friction_info": {
+                "should_have_sharing_friction": false,
+                "bloks_app_url": null
+              },
+              "media_overlay_info": null,
+              "media_preview": "ABgqjngZ2BPJqcZEewZ256e9WJrmOX5Iz3yT/hUe4HgcY55/KsG7bG2skkyjJOT8mBt4/GirUoVO2Mj8/pmii5PKLAgJLgD19vrUMkgDELzkDLfjnj/GrcuIYcd34/DvWZJL6fyp26DUkr3JJGkJzIQccDp07f5PNFVVO760UWIci7dTF3yPugYFQRIGJB6Yok6Vej4iyOMqabF1M8x4PFFXrsAOPpRSegWuf//Z",
+              "owner": {
+                "id": "50675101335",
+                "username": "sun.and.j"
+              },
+              "is_video": true,
+              "has_upcoming_event": false,
+              "accessibility_caption": null,
+              "dash_info": {
+                "is_dash_eligible": false,
+                "video_dash_manifest": null,
+                "number_of_qualities": 0
+              },
+              "has_audio": true,
+              "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiMzU0ZjMzZWZlNDM5NGQyYWFlOTNkMWI1MTI3NmQ0MjgzMjUzMTU0MTI0MDUxOTk0MjA0In0sInNpZ25hdHVyZSI6IiJ9",
+              "video_url": "https://scontent-iev1-1.cdninstagram.com/v/t66.30100-16/10000000_885549653155873_3672597222749120761_n.mp4?_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=NvhGUdvsM8wAX9myuT2&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCufrLNvEyCsR_Rxr5VbZdM911lthwC2ou6OhgJ3FPRDA&oe=658BE5B9&_nc_sid=8b3546",
+              "video_view_count": 377,
+              "edge_media_to_caption": {
+                "edges": [
+                  {
+                    "node": {
+                      "text": "В Sun&J вже новорічний настрій 🎄❄️\n\nЧекаємо на вас!"
+                    }
+                  }
+                ]
+              },
+              "edge_media_to_comment": {
+                "count": 4
+              },
+              "comments_disabled": false,
+              "taken_at_timestamp": 1702026292,
+              "edge_liked_by": {
+                "count": 86
+              },
+              "edge_media_preview_like": {
+                "count": 86
+              },
+              "location": {
+                "id": "215803552",
+                "has_public_page": true,
+                "name": "Михайлівська Площа",
+                "slug": ""
+              },
+              "nft_asset_info": null,
+              "thumbnail_src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/408428018_1507345526474693_3154975497298928536_n.jpg?stp=c0.280.720.720a_dst-jpg_e15_s640x640&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=WVNzyqOFg4wAX8MM0B-&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDdL7E1ZDhR7dLowhBa2L-Wc2O2ct1w1_7CtDxQnuECIQ&oe=658BB466&_nc_sid=8b3546",
+              "thumbnail_resources": [
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/408428018_1507345526474693_3154975497298928536_n.jpg?stp=c0.280.720.720a_dst-jpg_e15_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=WVNzyqOFg4wAX8MM0B-&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAIJRh6bHysjJx-H72SRWI_tuE2nibf7I-tTlK8uBrRIA&oe=658BB466&_nc_sid=8b3546",
+                  "config_width": 150,
+                  "config_height": 150
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/408428018_1507345526474693_3154975497298928536_n.jpg?stp=c0.280.720.720a_dst-jpg_e15_s240x240&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=WVNzyqOFg4wAX8MM0B-&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDtEH2GGqQBm2Vq5vuYsIleEzgPs_a0C1n6IyHmo-Z99w&oe=658BB466&_nc_sid=8b3546",
+                  "config_width": 240,
+                  "config_height": 240
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/408428018_1507345526474693_3154975497298928536_n.jpg?stp=c0.280.720.720a_dst-jpg_e15_s320x320&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=WVNzyqOFg4wAX8MM0B-&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCxznZAsUdxctKwDNae-kohjnSr9vttmS7JVEBe3TpkzQ&oe=658BB466&_nc_sid=8b3546",
+                  "config_width": 320,
+                  "config_height": 320
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/408428018_1507345526474693_3154975497298928536_n.jpg?stp=c0.280.720.720a_dst-jpg_e15_s480x480&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=WVNzyqOFg4wAX8MM0B-&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCsWhcaQtPzk-6CyQSqyKmAgMSpHN8dbt43Kh8GsqHq0w&oe=658BB466&_nc_sid=8b3546",
+                  "config_width": 480,
+                  "config_height": 480
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/408428018_1507345526474693_3154975497298928536_n.jpg?stp=c0.280.720.720a_dst-jpg_e15_s640x640&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=WVNzyqOFg4wAX8MM0B-&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDdL7E1ZDhR7dLowhBa2L-Wc2O2ct1w1_7CtDxQnuECIQ&oe=658BB466&_nc_sid=8b3546",
+                  "config_width": 640,
+                  "config_height": 640
+                }
+              ],
+              "felix_profile_grid_crop": null,
+              "coauthor_producers": [],
+              "pinned_for_users": [],
+              "viewer_can_reshare": true,
+              "product_type": "clips",
+              "clips_music_attribution_info": {
+                "artist_name": "sun.and.j",
+                "song_name": "Оригинальное аудио",
+                "uses_original_audio": true,
+                "should_mute_audio": false,
+                "should_mute_audio_reason": "",
+                "audio_id": "199231049911869"
+              }
+            }
+          },
+          {
+            "node": {
+              "__typename": "GraphVideo",
+              "id": "3252666526875505086",
+              "shortcode": "C0jyvkLN9G-",
+              "dimensions": {
+                "height": 1914,
+                "width": 1080
+              },
+              "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/407921688_1528987507869131_2456333079908597992_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=51CMUeJZv9cAX8h1rz4&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAiXMJoFoE4g286PoGBShqPszsUWu2L1hvWw6Av_mSD-g&oe=658B6C92&_nc_sid=8b3546",
+              "edge_media_to_tagged_user": {
+                "edges": [
+                  {
+                    "node": {
+                      "user": {
+                        "full_name": "Юлія Лобунець | Йога🇺🇦",
+                        "followed_by_viewer": false,
+                        "id": "181754677",
+                        "is_verified": false,
+                        "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/367505732_265883392973710_7861697728794064712_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=110&_nc_ohc=NQ2XXZ1-b40AX-aGxt-&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCJUIinY5nQxn-ybyAXTahEZl44xXyhVwybL3D8zGQEgA&oe=658F607C&_nc_sid=8b3546",
+                        "username": "yulialobunets"
+                      },
+                      "x": 0,
+                      "y": 0
+                    }
+                  }
+                ]
+              },
+              "fact_check_overall_rating": null,
+              "fact_check_information": null,
+              "gating_info": null,
+              "sharing_friction_info": {
+                "should_have_sharing_friction": false,
+                "bloks_app_url": null
+              },
+              "media_overlay_info": null,
+              "media_preview": "ABgqyreHJ5rVa2Xb7gelWobNeCMgjPYc+3NWvIJ4yR/wEVFmy7pHITR4Y0VvXFmvaiqJLK3QG04J57DParLXY2/df3+U1iwXkYZQcjnqffHbrWhIyohdsgckcnA7YP8AjyKjUqyGTXKheO4orJa6Vl+Yd8ccjHbv1op3YrIpJcNH0AJ9wDUpv5iScnnqO35dMe1Qin0wG7zK3zdO/b+WKKd3ooA//9k=",
+              "owner": {
+                "id": "50675101335",
+                "username": "sun.and.j"
+              },
+              "is_video": true,
+              "has_upcoming_event": false,
+              "accessibility_caption": null,
+              "dash_info": {
+                "is_dash_eligible": false,
+                "video_dash_manifest": null,
+                "number_of_qualities": 0
+              },
+              "has_audio": true,
+              "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiMzU0ZjMzZWZlNDM5NGQyYWFlOTNkMWI1MTI3NmQ0MjgzMjUyNjY2NTI2ODc1NTA1MDg2In0sInNpZ25hdHVyZSI6IiJ9",
+              "video_url": "https://scontent-iev1-1.cdninstagram.com/v/t66.30100-16/322036284_202125746299055_4780493345153837075_n.mp4?_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=cctG95HFvMMAX-_kzZU&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfD8_hM0UGUVoEATF7nsE31FC3C89XI-HB7Cuy0-ONyV-Q&oe=658B68CE&_nc_sid=8b3546",
+              "video_view_count": 772,
+              "edge_media_to_caption": {
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Самовдосконалення, внутрішній розвиток та встановлення взаємозв’язку між тілом та розумом - щоразу Юлія закохує в йогу кожного 🙏🏻\n\nПочинаючи з основ, ви будете занурюватися все глибше у асани та рухи, осмислюючи свої відчуття по-новому.\n\nЗапрошуємо вас на класи йоги із засновницею студії Sun&J Юлією Лобунець 🧘🏼‍♀️\n• Вівторок: \nІнь-Янь йога о 9.00\n• Середа: \nВіньяса йога о 7.00\nВіньяса йога (спешл клас до 4 людей) о 19.00\n• Четвер: \nІнь-Янь йога о 9.00\n• Субота:\nВіньяса йога об 11.15\n\nЗапис в Direct, до зустрічі в Sun&J ☀️"
+                    }
+                  }
+                ]
+              },
+              "edge_media_to_comment": {
+                "count": 7
+              },
+              "comments_disabled": false,
+              "taken_at_timestamp": 1701968170,
+              "edge_liked_by": {
+                "count": 109
+              },
+              "edge_media_preview_like": {
+                "count": 109
+              },
+              "location": {
+                "id": "215803552",
+                "has_public_page": true,
+                "name": "Михайлівська Площа",
+                "slug": ""
+              },
+              "nft_asset_info": null,
+              "thumbnail_src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/407921688_1528987507869131_2456333079908597992_n.jpg?stp=c0.545.1410.1410a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=51CMUeJZv9cAX8h1rz4&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCWtHR5ABJ04e0Mh8FQOU489TUJonX6rrcfuOZyCGy2PA&oe=658B6C92&_nc_sid=8b3546",
+              "thumbnail_resources": [
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/407921688_1528987507869131_2456333079908597992_n.jpg?stp=c0.545.1410.1410a_dst-jpg_e15_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=51CMUeJZv9cAX8h1rz4&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDSSbg79Xj1YZ9VvFEtpw3Yt4LrC3219k1rqrfFFk0zBQ&oe=658B6C92&_nc_sid=8b3546",
+                  "config_width": 150,
+                  "config_height": 150
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/407921688_1528987507869131_2456333079908597992_n.jpg?stp=c0.545.1410.1410a_dst-jpg_e15_s240x240&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=51CMUeJZv9cAX8h1rz4&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCyQ7aPSyuwZiB1wfRjjqKY8acXD6fbAVgF81_RvKXUzg&oe=658B6C92&_nc_sid=8b3546",
+                  "config_width": 240,
+                  "config_height": 240
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/407921688_1528987507869131_2456333079908597992_n.jpg?stp=c0.545.1410.1410a_dst-jpg_e15_s320x320&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=51CMUeJZv9cAX8h1rz4&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDerUbtZEw6j3HUA3ygqxwYVTeSEeWvdw-pPi14zkzMwg&oe=658B6C92&_nc_sid=8b3546",
+                  "config_width": 320,
+                  "config_height": 320
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/407921688_1528987507869131_2456333079908597992_n.jpg?stp=c0.545.1410.1410a_dst-jpg_e15_s480x480&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=51CMUeJZv9cAX8h1rz4&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfACzhke_Z1SziDZZ7oq7Df1FmJKttpyAvlTZmijSKG4EA&oe=658B6C92&_nc_sid=8b3546",
+                  "config_width": 480,
+                  "config_height": 480
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-15/407921688_1528987507869131_2456333079908597992_n.jpg?stp=c0.545.1410.1410a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=51CMUeJZv9cAX8h1rz4&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCWtHR5ABJ04e0Mh8FQOU489TUJonX6rrcfuOZyCGy2PA&oe=658B6C92&_nc_sid=8b3546",
+                  "config_width": 640,
+                  "config_height": 640
+                }
+              ],
+              "felix_profile_grid_crop": null,
+              "coauthor_producers": [
+                {
+                  "id": "181754677",
+                  "is_verified": false,
+                  "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/367505732_265883392973710_7861697728794064712_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=110&_nc_ohc=NQ2XXZ1-b40AX-aGxt-&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCJUIinY5nQxn-ybyAXTahEZl44xXyhVwybL3D8zGQEgA&oe=658F607C&_nc_sid=8b3546",
+                  "username": "yulialobunets"
+                }
+              ],
+              "pinned_for_users": [],
+              "viewer_can_reshare": true,
+              "product_type": "clips",
+              "clips_music_attribution_info": {
+                "artist_name": "sun.and.j",
+                "song_name": "Оригинальное аудио",
+                "uses_original_audio": true,
+                "should_mute_audio": false,
+                "should_mute_audio_reason": "",
+                "audio_id": "1690081634815017"
+              }
+            }
+          },
+          {
+            "node": {
+              "__typename": "GraphSidecar",
+              "id": "3251104170403945186",
+              "shortcode": "C0ePgSUt9ri",
+              "dimensions": {
+                "height": 1350,
+                "width": 1080
+              },
+              "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408215920_17958674360693336_1497178992831944783_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=Pebn4PFwW20AX--NzRQ&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfCM21nHnL4UkO0KZQ7HsyQSgNFddst3EV__S9mGBOedpQ&oe=658EA417&_nc_sid=8b3546",
+              "edge_media_to_tagged_user": {
+                "edges": []
+              },
+              "fact_check_overall_rating": null,
+              "fact_check_information": null,
+              "gating_info": null,
+              "sharing_friction_info": {
+                "should_have_sharing_friction": false,
+                "bloks_app_url": null
+              },
+              "media_overlay_info": null,
+              "media_preview": null,
+              "owner": {
+                "id": "50675101335",
+                "username": "sun.and.j"
+              },
+              "is_video": false,
+              "has_upcoming_event": false,
+              "accessibility_caption": null,
+              "edge_media_to_caption": {
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Запрошуємо на майстер-клас зі створення ялинки «Яка твоя внутрішня ялинка?» 🎄 \n\nСтворення ялинки — своєрідна медитація, де через творчість та асоціації із власним Я, народиться справжній шедевр. Не обійдеться без розмов про плани, мрії та цілі на наступний рік 🙏🏻\n\nКоли? У неділю, 10 грудня, о 14.00\nВартість: 2 500 грн\n\nДля запису пишіть нам в Direct або залишайте «+» в коментарях!\n\nДавай творити диво разом в Sun&J 💛"
+                    }
+                  }
+                ]
+              },
+              "edge_media_to_comment": {
+                "count": 1
+              },
+              "comments_disabled": false,
+              "taken_at_timestamp": 1701781840,
+              "edge_liked_by": {
+                "count": 88
+              },
+              "edge_media_preview_like": {
+                "count": 88
+              },
+              "location": null,
+              "nft_asset_info": null,
+              "thumbnail_src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408215920_17958674360693336_1497178992831944783_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=Pebn4PFwW20AX--NzRQ&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfC1FopzQT1kBRWj2CwHpBDKAsliGfRhQ9CDVfi96egxHA&oe=658EA417&_nc_sid=8b3546",
+              "thumbnail_resources": [
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408215920_17958674360693336_1497178992831944783_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e15_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=Pebn4PFwW20AX--NzRQ&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfCNVCj0AKr-JpVimX_SkSCMtwPJFXlQHQVAjsM-zk0OtQ&oe=658EA417&_nc_sid=8b3546",
+                  "config_width": 150,
+                  "config_height": 150
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408215920_17958674360693336_1497178992831944783_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e15_s240x240&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=Pebn4PFwW20AX--NzRQ&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfB4k5NwSKL8hA5UjRWUFEZ9KCpkhUz5UQkk9bHb71Zw6A&oe=658EA417&_nc_sid=8b3546",
+                  "config_width": 240,
+                  "config_height": 240
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408215920_17958674360693336_1497178992831944783_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e15_s320x320&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=Pebn4PFwW20AX--NzRQ&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfDXRBEYixM98DAZv6Fg-8-G_-se46wS2Xf0UOxOdAx57w&oe=658EA417&_nc_sid=8b3546",
+                  "config_width": 320,
+                  "config_height": 320
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408215920_17958674360693336_1497178992831944783_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e15_s480x480&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=Pebn4PFwW20AX--NzRQ&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfDvopcFjflzRRtWxEu4R82Q0DB6OKRSUTUVkMY_WVLWRw&oe=658EA417&_nc_sid=8b3546",
+                  "config_width": 480,
+                  "config_height": 480
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408215920_17958674360693336_1497178992831944783_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=Pebn4PFwW20AX--NzRQ&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfC1FopzQT1kBRWj2CwHpBDKAsliGfRhQ9CDVfi96egxHA&oe=658EA417&_nc_sid=8b3546",
+                  "config_width": 640,
+                  "config_height": 640
+                }
+              ],
+              "coauthor_producers": [],
+              "pinned_for_users": [],
+              "viewer_can_reshare": true,
+              "edge_sidecar_to_children": {
+                "edges": [
+                  {
+                    "node": {
+                      "__typename": "GraphImage",
+                      "id": "3251104167350345032",
+                      "shortcode": "C0ePgPetZ1I",
+                      "dimensions": {
+                        "height": 1350,
+                        "width": 1080
+                      },
+                      "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408215920_17958674360693336_1497178992831944783_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=Pebn4PFwW20AX--NzRQ&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfCM21nHnL4UkO0KZQ7HsyQSgNFddst3EV__S9mGBOedpQ&oe=658EA417&_nc_sid=8b3546",
+                      "edge_media_to_tagged_user": {
+                        "edges": []
+                      },
+                      "fact_check_overall_rating": null,
+                      "fact_check_information": null,
+                      "gating_info": null,
+                      "sharing_friction_info": {
+                        "should_have_sharing_friction": false,
+                        "bloks_app_url": null
+                      },
+                      "media_overlay_info": null,
+                      "media_preview": "ACIq56rQQSKWJwy9cnr6YqqOc1YBRk287gepPb0/woARImbn0/OrkcPmofXt61CnAODjjvWlaL8oJqbj6GGeKKmkXDH6n+dFWIhXAXPf09qtSoUO7ACuvA+nb2NQNtABB5xg+1NUFgSTwv8AXsKQFiPdMMA4Pr06f/WrWibaoA+n41l28LMAw5B4/GtGGHaCM9/++SP85qQM9503HI7mimSLHuPPc/zoqxEBVT0PWpI+eBxmq8P3xVpBjb9D/wChGkMv2LbcrjI6/wBOKnwULSElVySecZ44Hpn9aih4TI44anXBP2d/+AU0BiUU2igD/9k=",
+                      "owner": {
+                        "id": "50675101335",
+                        "username": "sun.and.j"
+                      },
+                      "is_video": false,
+                      "has_upcoming_event": false,
+                      "accessibility_caption": null
+                    }
+                  },
+                  {
+                    "node": {
+                      "__typename": "GraphImage",
+                      "id": "3251104167409086541",
+                      "shortcode": "C0ePgPiNfBN",
+                      "dimensions": {
+                        "height": 1350,
+                        "width": 1080
+                      },
+                      "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408318640_17958674369693336_2152629525933903745_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=5oMdC3Er0RcAX_f-TdC&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfAxY9ma9O9-Y_BQplrOMC1UhZvNFeyHqZU13W6qSbe94Q&oe=658E5E73&_nc_sid=8b3546",
+                      "edge_media_to_tagged_user": {
+                        "edges": []
+                      },
+                      "fact_check_overall_rating": null,
+                      "fact_check_information": null,
+                      "gating_info": null,
+                      "sharing_friction_info": {
+                        "should_have_sharing_friction": false,
+                        "bloks_app_url": null
+                      },
+                      "media_overlay_info": null,
+                      "media_preview": "ACIq54U6kFSMO44BoAbS0UtMBtFLRQBGKmjbbzx+P5dO9QCrCttG4DJHHPI+oH+P5UgBlA9/f+tJipHwxOCSOxPWoqEAUUUUwIBUgc429s5qOgUgLhX5QSfYfhVfNWJP9WPr/jVc0AJuopaKYH//2Q==",
+                      "owner": {
+                        "id": "50675101335",
+                        "username": "sun.and.j"
+                      },
+                      "is_video": false,
+                      "has_upcoming_event": false,
+                      "accessibility_caption": null
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "__typename": "GraphImage",
+              "id": "3250322274291884631",
+              "shortcode": "C0bduM0tSJX",
+              "dimensions": {
+                "height": 1350,
+                "width": 1080
+              },
+              "display_url": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408297306_17958525638693336_5210113738258404710_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=QhjfYi8IzxUAX89gRZT&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfCA211kiSRGBcFZjYs5KPqxrmvyi4BW9yx3iMAg_57TzA&oe=658E738A&_nc_sid=8b3546",
+              "edge_media_to_tagged_user": {
+                "edges": []
+              },
+              "fact_check_overall_rating": null,
+              "fact_check_information": null,
+              "gating_info": null,
+              "sharing_friction_info": {
+                "should_have_sharing_friction": false,
+                "bloks_app_url": null
+              },
+              "media_overlay_info": null,
+              "media_preview": "ACIqygKeBQBU8aBmCngE4/w/XisTU6sDj8KaRWdp8mJGhBJAUMASTjnB6+vWtNqfmLbQgooNFAHNCOpp9kCL3ckE/T/OPxrY+zRJ95lH1IrI1KNT8wbkHA9CMZ+lK2uo/QZZ3P78yD5eOnXcO/8AjXTsa46zQBySckLkY/Advbp7107SjGPah6aBvr1HE0VWMlFAFO6sklAKvtYevIP9RWOp2FopSCvQ4OcEdCK32RfQflVCSJMn5R+QoT6A+5QEyQLtj5J5LdDx0/8A1VNBdSE/OSV9f8KikRR2H5U2LriqaTQr6l3zx6n8v/r0VXoqOVDuz//Z",
+              "owner": {
+                "id": "50675101335",
+                "username": "sun.and.j"
+              },
+              "is_video": false,
+              "has_upcoming_event": false,
+              "accessibility_caption": null,
+              "edge_media_to_caption": {
+                "edges": [
+                  {
+                    "node": {
+                      "text": "Основною метою практики хатха йоги є фізичне здоров’я 🧘🏼‍♀️\n\nСаме такий стан наближає особистість до вищих істин та гармонії. \n\nЗа рахунок мʼякого навантаження та гармонійного опрацювання всього тіла, хатха йога покращує роботу мʼязів та збільшує витривалість.\n\nКомплекс асан розроблений так, аби тіло ставало сильнішим, а розум — світлішим ✨\n\n🖇 Практики хатха йоги з Іриною: вівторок та четвер об 11.00\n\nЧекаємо вас в Sun&J ☀️"
+                    }
+                  }
+                ]
+              },
+              "edge_media_to_comment": {
+                "count": 0
+              },
+              "comments_disabled": false,
+              "taken_at_timestamp": 1701688630,
+              "edge_liked_by": {
+                "count": 55
+              },
+              "edge_media_preview_like": {
+                "count": 55
+              },
+              "location": {
+                "id": "215803552",
+                "has_public_page": true,
+                "name": "Михайлівська Площа",
+                "slug": ""
+              },
+              "nft_asset_info": null,
+              "thumbnail_src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408297306_17958525638693336_5210113738258404710_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=QhjfYi8IzxUAX89gRZT&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfAWrNxb6G48cPDkegszvtXE9agLQbjywJe1endVmu0ZXQ&oe=658E738A&_nc_sid=8b3546",
+              "thumbnail_resources": [
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408297306_17958525638693336_5210113738258404710_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e15_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=QhjfYi8IzxUAX89gRZT&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfCr5rYk5XvhQXcEMKRM36v_dhGDC-AvPKCovuUotEj0lQ&oe=658E738A&_nc_sid=8b3546",
+                  "config_width": 150,
+                  "config_height": 150
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408297306_17958525638693336_5210113738258404710_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e15_s240x240&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=QhjfYi8IzxUAX89gRZT&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfDgAP7_jsCsb4lpb2CTJvWgMstKGOHTsQe2tEIW9gbMnQ&oe=658E738A&_nc_sid=8b3546",
+                  "config_width": 240,
+                  "config_height": 240
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408297306_17958525638693336_5210113738258404710_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e15_s320x320&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=QhjfYi8IzxUAX89gRZT&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfABIaiEiTwBelmss6ROeRxyzzLeLmsVTsVbdG16QKkuyw&oe=658E738A&_nc_sid=8b3546",
+                  "config_width": 320,
+                  "config_height": 320
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408297306_17958525638693336_5210113738258404710_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e15_s480x480&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=QhjfYi8IzxUAX89gRZT&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfC6_mONthv4TM6yJtPQrwFAEeBbN7x3_5jSI5ZIeeRDpA&oe=658E738A&_nc_sid=8b3546",
+                  "config_width": 480,
+                  "config_height": 480
+                },
+                {
+                  "src": "https://scontent-iev1-1.cdninstagram.com/v/t39.30808-6/408297306_17958525638693336_5210113738258404710_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=QhjfYi8IzxUAX89gRZT&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AfAWrNxb6G48cPDkegszvtXE9agLQbjywJe1endVmu0ZXQ&oe=658E738A&_nc_sid=8b3546",
+                  "config_width": 640,
+                  "config_height": 640
+                }
+              ],
+              "coauthor_producers": [],
+              "pinned_for_users": [],
+              "viewer_can_reshare": true
+            }
+          }
+        ]
+      },
+      "edge_saved_media": {
+        "count": 0,
+        "page_info": {
+          "has_next_page": false,
+          "end_cursor": null
+        },
+        "edges": []
+      },
+      "edge_media_collections": {
+        "count": 0,
+        "page_info": {
+          "has_next_page": false,
+          "end_cursor": null
+        },
+        "edges": []
+      },
+      "edge_related_profiles": {
+        "edges": [
+          {
+            "node": {
+              "id": "4138922862",
+              "full_name": "Психолог, провідник до наповненого стану 💫",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/357302022_3498256540389813_8539069051448555770_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=BFwsSbsETdMAX-aT0hx&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCPuclm32dJyEv8tQ6enQk1O5TXD8q-Nv5MnnmjGPDdVg&oe=658FA931&_nc_sid=8b3546",
+              "username": "elena_gadashevich"
+            }
+          },
+          {
+            "node": {
+              "id": "27470633436",
+              "full_name": "йога Новопечерські Липки | корпоративна йога | корисне комʼюніті",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/350265600_2805052446304213_3043243419414015751_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=AfDuikcvUFYAX8tDjxj&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAtMTum8LPEj06LPvXC2C_iaLCY6fZhQpRMOtODNDDEdg&oe=658EB3AF&_nc_sid=8b3546",
+              "username": "yoga.com.kyiv"
+            }
+          },
+          {
+            "node": {
+              "id": "36290107203",
+              "full_name": "Йога • стретчінг • пілатес",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/160679704_165932705363489_388879541080303014_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=wjD_5tj7jJEAX-cU7YD&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfB13bP2vqBDmPqmxrUDb8o6PAVpBfhx46G70rCe38Vm8Q&oe=658F5185&_nc_sid=8b3546",
+              "username": "so.flexi"
+            }
+          },
+          {
+            "node": {
+              "id": "51183308271",
+              "full_name": "Re:place - місце відпочинку 🌀",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/353791639_1440174636524900_1088700471808993272_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=OIGx_viw3L4AX_Ouc0s&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBxb9v4Up0YV9b_ywuZfKYXrAbOVfq_Ts1_jQO4ZDT2zg&oe=658E76DD&_nc_sid=8b3546",
+              "username": "replace.kyiv"
+            }
+          },
+          {
+            "node": {
+              "id": "55749988311",
+              "full_name": "ЖІНОЧИЙ КЛУБ | ТРАНСФОРМАЦІЙНІ ІГРИ | МАК КАРТИ | КИЇВ",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/310340593_3219190371634976_3857138481205144446_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=wW9rOGV0jsUAX-2csKd&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCTbjXB_RLer30ybLOjE35i9woD2Ubkf3DFsHLSJlcTiQ&oe=658EEF30&_nc_sid=8b3546",
+              "username": "womanocean_space"
+            }
+          },
+          {
+            "node": {
+              "id": "29112579370",
+              "full_name": "Хатха/Аштанга Йога і Медитація",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/315323630_700826801128403_6569696334295008868_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=r9ZKnu_NyGYAX8cMNBR&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDXo5vwG36Q7fAQW6l-bHOUh_XXUlIRtHXf3S1Yxsf36g&oe=658F089F&_nc_sid=8b3546",
+              "username": "mindfulplace.kyiv"
+            }
+          },
+          {
+            "node": {
+              "id": "1934085234",
+              "full_name": "Christina•Видео Reels Мобильная сьемка 🇪🇸 🇺🇦",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/337322590_3542051056028697_7850842761338692200_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=HpRxohkrk44AX9e5TYV&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCJqwdL6hG3rGb6Pn8x0HFZoQDyZVA16IVmH9aomzOuDg&oe=658EA091&_nc_sid=8b3546",
+              "username": "christina.galan"
+            }
+          },
+          {
+            "node": {
+              "id": "49011652428",
+              "full_name": "Арт-студия | мастер-классы",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/232708131_4386076514781729_3737787153324990793_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=kUg_kkIK51gAX--w_D0&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBH9_3tPhqIm4H1TOzCKYNrajlMkzi1MM0NiCTUq72XjQ&oe=658E029B&_nc_sid=8b3546",
+              "username": "artmosfera.artstudio"
+            }
+          },
+          {
+            "node": {
+              "id": "48607538662",
+              "full_name": "Психолог 💛 Гвіздки Садху 💙 Звукотерапія",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/401642562_645512551075413_1166588315763424593_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=6hZVTGS5rgkAX91ETe-&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBEDaeNOy3O8oXgMcbu8Z51MCpYZ-Y6OuY-TXrwvPuITg&oe=658E0CC1&_nc_sid=8b3546",
+              "username": "kolesnyk_psychology"
+            }
+          },
+          {
+            "node": {
+              "id": "50009317021",
+              "full_name": "Retro treehouse Будинок на дереві,Treehouse,готель, отель🇺🇦",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/313795501_1122361802002310_8724556545712667377_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=102&_nc_ohc=g4rWqp2OjgsAX-BOBHH&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAJQvWfHzDPXdQs0Pql67wLfGyHFCy9qwTAysU-POzsbA&oe=658E8CB9&_nc_sid=8b3546",
+              "username": "treehouse_retro"
+            }
+          },
+          {
+            "node": {
+              "id": "58637055518",
+              "full_name": "Правдивий SMM • Реальний бізнес • Маркетинг • Курси Інстаграм",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/336056618_942734987153395_1213720644726097142_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=TfpGZdTQWB0AX8thAH3&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCXAo_M9B_dT9_a5a69-PiqVF1JNdClQfBDbW-jFfjkMQ&oe=658E7B0F&_nc_sid=8b3546",
+              "username": "ivanova_secrets"
+            }
+          },
+          {
+            "node": {
+              "id": "1167127799",
+              "full_name": "ПСИХОСОМАТОЛОГ | ВЧИТЕЛЬ КУНДАЛІНІ ЙОГИ | ДУХОВНИЙ КОУЧ",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/407739583_1007884813841552_5215154904212614510_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=9KlGxySzClkAX8B4wDM&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAEEVE_Vok3cfMs6qaNyKRXeXytaZcF-SEIcRSOlmVTdA&oe=658E0C98&_nc_sid=8b3546",
+              "username": "yevgeniia.nos"
+            }
+          },
+          {
+            "node": {
+              "id": "43893311961",
+              "full_name": "Gremi Hotel | Драгобрат | Відпочинок в горах",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/288243062_866392594319843_8001748988412316802_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=8SmFAKMcSz0AX9RqAyb&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDLmy3O1UrQC0w1GEx66x7f9bNK4FdlUkt7RId4lerRWg&oe=658EE7F2&_nc_sid=8b3546",
+              "username": "gremihotel"
+            }
+          },
+          {
+            "node": {
+              "id": "48929988012",
+              "full_name": "WOL home | hotel",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/272200118_133768642454356_3363389517376426872_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=Nf8nQ5PzJ9QAX-bsDwf&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCHapcDImNOrGDRMTQA_XbhDcXPGzYy6iZmXv0YsGf6cA&oe=658F77D8&_nc_sid=8b3546",
+              "username": "wol.lifestyle"
+            }
+          },
+          {
+            "node": {
+              "id": "22505485955",
+              "full_name": "ЦВЯХОСТОЯННЯ | ГІПНОТЕРАПІЯ | ГІПНОORGAЗМ",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/391356671_1068130311268388_2872088946712437851_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=gPm0rbgytaUAX-OCx3A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAZdDFtUXjbWN8SF5Dll4tHB_h-3rE_g7V4-51BJAuxbQ&oe=658E0F55&_nc_sid=8b3546",
+              "username": "natalie_sivoborodko"
+            }
+          },
+          {
+            "node": {
+              "id": "277591561",
+              "full_name": "НАВЧУ РОЗКІШНО ГОТУВАТИ",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/383408965_1499075534267273_1031093518039445834_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=YveejMpJp9cAX8ir8S6&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfA-U9sQQhmgkDmG5lnc_dOyVl_RLoERS5F5u5rry-948g&oe=658F8685&_nc_sid=8b3546",
+              "username": "madamevorger"
+            }
+          },
+          {
+            "node": {
+              "id": "40394365676",
+              "full_name": "Simona",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/118403412_713308705891814_2144113502951178679_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=102&_nc_ohc=Ryukn1W_ArEAX-ARPLc&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBEPOeADjPVOEQAFPPfEEGLFq44u9tAfabwRn0SiySbOQ&oe=658E5F12&_nc_sid=8b3546",
+              "username": "simona_ristorante"
+            }
+          },
+          {
+            "node": {
+              "id": "17531800970",
+              "full_name": "Bhakti Marga Ukraine",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/66368040_2384082335194167_2284113854835195904_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=103&_nc_ohc=x6ePQaKIwxAAX-VqeYh&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAB-erwIEdZhpoAiR_IH4PTx6VXdWVuZla_iVDYGAxy8w&oe=658E2A81&_nc_sid=8b3546",
+              "username": "bhaktimarga_ukraine"
+            }
+          },
+          {
+            "node": {
+              "id": "300578187",
+              "full_name": "Наталя про особистий бренд і Патенти ©️",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/356614540_599006705653644_770457204877587075_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=zIPDGG5cIVwAX-5m3aa&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAz0Rz8kE01PtQ_5-Io-pnkVEElW_OrNbuYprIxq4r69Q&oe=658E72A6&_nc_sid=8b3546",
+              "username": "vladymyrova.nataliya"
+            }
+          },
+          {
+            "node": {
+              "id": "51539223340",
+              "full_name": "True Kundalini Yoga",
+              "is_private": false,
+              "is_verified": false,
+              "profile_pic_url": "https://scontent-iev1-1.cdninstagram.com/v/t51.2885-19/350655075_962585654763489_4345306361567849167_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=e_BYY2qcQnoAX_Qcc0l&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfD6xUgNJDF_e1dBQIrtXVjKKen2sv9rAbairK4IHTK8tg&oe=658FD8DB&_nc_sid=8b3546",
+              "username": "anastasiia.true"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "status": "ok"
+}

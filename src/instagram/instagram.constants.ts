@@ -1,0 +1,3 @@
+const POSTS_PER_REQUEST = 100;
+
+export { POSTS_PER_REQUEST };

@@ -1,0 +1,22 @@
+extends ../app
+
+block variables
+  -
+    const pageTitle = `Головна`;
+
+block content
+  .page.main
+    .search
+      .input-group.oh-search-container
+        input.form-control#instagram-link(type='text' placeholder='Посилання на сторiнку instagram')
+        button.btn.btn-primary#start Почати
+
+    .results
+      .handled
+        p Оброблено
+        span 0
+
+    .goods
+
+block scripts
+  script(src='/javascripts/web/main.script.js')
