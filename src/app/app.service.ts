@@ -26,6 +26,7 @@ class AppService {
         url: process.env.APP_URL,
         environment: process.env.NODE_ENV,
         port: Number(process.env.APP_PORT),
+        websocketsPort: Number(process.env.WEBSOCKETS_PORT),
       },
 
       instagram: {
