@@ -156,7 +156,7 @@ const createExcelFile = async ({ tableHeaders, tableBody }) => {
 };
 
 const initWebsockets = (onMessage) => {
-  const wsClient = new WebSocket(`ws://localhost:${wsConnectionPort}`);
+  const wsClient = new WebSocket(`ws://45.95.234.5:${wsConnectionPort}`);
 
   wsClient.onmessage = onMessage;
 

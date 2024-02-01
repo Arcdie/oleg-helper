@@ -3,7 +3,6 @@ import { appService } from './app/app.service';
 
 appService.setEnvironment();
 
-import migrations from './migrations';
 import expressInitializer from './libs/express';
 
 const appSettings = appService.getAppSettings();
@@ -12,8 +11,6 @@ const appSettings = appService.getAppSettings();
   await expressInitializer().then(() =>
     log.info(`App is running at ${appSettings.host}:${appSettings.port}`),
   );
-
-  // await migrations();
 })().catch((error) => {
   console.log('error', error);
   process.exit(1);
