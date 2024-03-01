@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 
 import { excelService } from '../excel/excel.service';
-import { badRequestResponse } from '../libs/expressResponses';
+import { badRequestResponse } from '../libs/express-responses';
 
 class ExcelController {
   async createExcelFile(req: Request, res: Response) {

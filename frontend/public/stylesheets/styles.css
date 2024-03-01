@@ -29,6 +29,18 @@ body {
     padding: 0 6px;
     border: 1px solid #ccc;
     border-radius: 5px; }
+  .page.main .results .save-excel {
+    width: 40px;
+    position: relative;
+    bottom: 2px; }
+    .page.main .results .save-excel button {
+      width: 100%;
+      height: 100%;
+      border: none;
+      background-color: transparent; }
+      .page.main .results .save-excel button img {
+        width: 100%;
+        height: 100%; }
 
 .page.main .goods {
   display: flex;
@@ -41,4 +53,5 @@ body {
     margin: 15px;
     display: flex; }
     .page.main .goods .card a.btn {
-      width: 100%; }
+      width: 100%;
+      margin-top: 10px; }

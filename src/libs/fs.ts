@@ -1,5 +1,8 @@
 import * as fs from 'fs';
 
+export const readFileSync = (pathToFile: string) =>
+  fs.readFileSync(pathToFile, 'utf-8');
+
 export const writeFile = (
   pathToFile: string,
   fileName: string,

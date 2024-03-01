@@ -56,6 +56,7 @@ $(async () => {
       }
 
       $goods.empty();
+      goodsHistory = [];
 
       $results
         .removeClass('active')
@@ -65,6 +66,16 @@ $(async () => {
       await initGettingsGods(instagramLink);
 
       $results.addClass('active');
+    });
+
+  $('.save-excel')
+    .on('click', async () => {
+      if (!goodsHistory.length) {
+        return;
+      }
+
+      const preparedData = prepareDataForExcelFile(goodsHistory);
+      await createExcelFile(preparedData);
     });
 });
 
@@ -106,11 +117,31 @@ const appendGoods = (goods) => {
 
 const prepareDataForExcelFile = (goods) => {
   const tableBody = [];
-  const tableHeaders = ['#', 'Опис', 'Посилання', 'Зображення'];
+  const tableHeaders = ['#', 'Заголовок', 'Опис', 'Ціна', 'Атрибути', 'Повний опис', 'Посилання', 'Зображення'];
 
   goods.forEach((g, i) => {
+    const title = g.data?.title || '';
+    const price = g.data?.price || '';
+    const attributes = g.data?.attributes || '';
+    const description = g.data?.description || '';
+
+    console.log([
+      i + 1,
+      title,
+      description,
+      price,
+      attributes,
+      g.text,
+      `https://www.instagram.com/p/${g.link}`,
+      g.images.join(',')
+    ]);
+
     tableBody.push([
       i + 1,
+      title,
+      description,
+      price,
+      attributes,
       g.text,
       `https://www.instagram.com/p/${g.link}`,
       g.images.join(',')
@@ -155,8 +186,13 @@ const createExcelFile = async ({ tableHeaders, tableBody }) => {
   return true;
 };
 
+const getWebsocketUrl = () => {
+  const isWss = location.protocol === 'https:';  
+  return `${isWss ? 'wss' : 'ws'}://${location.hostname}:${wsConnectionPort}`;
+};
+
 const initWebsockets = (onMessage) => {
-  const wsClient = new WebSocket(`ws://45.95.234.5:${wsConnectionPort}`);
+  const wsClient = new WebSocket(getWebsocketUrl());
 
   wsClient.onmessage = onMessage;
 

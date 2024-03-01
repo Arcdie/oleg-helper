@@ -1,30 +1,21 @@
-import * as fs from 'fs';
-import * as path from 'path';
-import axios from 'axios';
+import { AxiosLib } from '../libs/axios.lib';
 
 class ImageService {
-  async saveImage(imageLink: string, imageName: string) {
-    const buffer = await this.downloadImage(imageLink);
-    const pathToFolder = path.join(
-      __dirname,
-      '../../frontend/public/files/goods',
-    );
+  async fetchImage(imageLink: string) {
+    try {
+      const responseData = await AxiosLib.makeGetRequest<ArrayBuffer>(
+        imageLink,
+        {},
+        {
+          responseType: 'arraybuffer',
+        },
+      );
 
-    return new Promise<boolean>((res, rej) => {
-      buffer
-        .pipe(fs.createWriteStream(`${pathToFolder}/${imageName}`))
-        .on('finish', () => res(true))
-        .on('error', (e: any) => rej(e));
-    });
-  }
-
-  private async downloadImage(imageLink: string) {
-    const response = await axios({
-      url: imageLink,
-      responseType: 'stream',
-    });
-
-    return response.data;
+      return responseData.data;
+    } catch (err) {
+      console.log(err);
+      return false;
+    }
   }
 }
 

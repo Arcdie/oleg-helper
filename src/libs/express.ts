@@ -6,7 +6,7 @@ import express, { Express, ErrorRequestHandler } from 'express';
 import routes from '../routes';
 import morgan from '../middlewares/morgan.middleware';
 
-import { getEnv } from './helper';
+import { getEnv } from './helpers';
 import { appService } from '../app/app.service';
 
 const appSettings = appService.getAppSettings();

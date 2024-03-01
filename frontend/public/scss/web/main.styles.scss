@@ -33,6 +33,24 @@
         border-radius: 5px;
       }
     }
+
+    .save-excel {
+      width: 40px;
+      position: relative;
+      bottom: 2px;
+
+      button {
+        width: 100%;
+        height: 100%;
+        border: none;
+        background-color: transparent;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
   }
 
   .goods {
@@ -49,6 +67,7 @@
 
       a.btn {
         width: 100%;
+        margin-top: 10px;
       }
     }
   }

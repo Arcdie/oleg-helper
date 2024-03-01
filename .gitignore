@@ -48,4 +48,4 @@ lerna-debug.log*
 /src/migrations/*
 /src/commands/*
 helpers.txt
-developments
+/developments

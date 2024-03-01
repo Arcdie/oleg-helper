@@ -1,9 +1,12 @@
 import axios from 'axios';
 
-import { sleep } from '../libs/helper';
+import { getQueue, getUniqueId } from '../libs/helpers';
+
 import { appService } from '../app/app.service';
 import { imageService } from '../images/image.service';
+import { chatGPTService } from '../chatgpt/chatgpt.service';
 import { websocketManager } from '../websockets/websocket.manager';
+import { cloudflareService } from '../cloudflare/cloudflare.service';
 
 import { POSTS_PER_REQUEST } from './instagram.constants';
 
@@ -12,6 +15,18 @@ import { IGetPostsResponse } from './interfaces/get-posts.response';
 
 class InstagramService {
   private parseUrl = 'https://www.instagram.com/api/graphql';
+
+  async uploadImage(imageLink: string) {
+    const buffer = await imageService.fetchImage(imageLink);
+
+    if (!buffer) {
+      return false;
+    }
+
+    await cloudflareService.uploadImage('image.jpg', buffer);
+
+    return true;
+  }
 
   async initGettingsGods(pageCode: string, clientId: string) {
     return this.getNextPageWithGoods(pageCode, clientId, 0);
@@ -30,8 +45,6 @@ class InstagramService {
       isFinished: boolean;
     },
   ) {
-    const appSettings = appService.getAppSettings();
-
     if (!data.goods.length || data.isError) {
       websocketManager.sendMessageToClient(
         clientId,
@@ -41,27 +54,62 @@ class InstagramService {
       return;
     }
 
-    for await (const good of data.goods) {
-      let index = 0;
+    const imageLinkIdMapper = new Map<string, string>();
 
-      for await (const imageLink of good.images) {
-        await imageService.saveImage(imageLink, `${good.link}-${index}.jpg`);
-        index += 1;
-      }
+    const queue = getQueue(data.goods, 10);
 
-      good.images = good.images.map(
-        (e, i) => `${appSettings.url}/files/goods/${good.link}-${i}.jpg`,
-      );
+    for await (const e of queue) {
+      await Promise.all(
+        e.map(async (good) => {
+          if (!good.text) {
+            return;
+          }
 
-      websocketManager.sendMessageToClient(
-        clientId,
-        JSON.stringify({
-          event: 'GOODS',
-          data: {
-            goods: [good],
-            isError: false,
-            isFinished: false,
-          },
+          await Promise.all(
+            good.images.map(async (imageLink) => {
+              const imageName = `${getUniqueId()}.jpg`;
+
+              const buffer = await imageService.fetchImage(imageLink);
+
+              if (!buffer) {
+                return null;
+              }
+
+              const resultUpload = await cloudflareService.uploadImage(
+                imageName,
+                buffer,
+              );
+
+              if (!resultUpload) {
+                return null;
+              }
+
+              imageLinkIdMapper.set(imageLink, resultUpload);
+            }),
+          );
+
+          good.images = good.images.map((e) => {
+            const value = imageLinkIdMapper.get(e);
+            return value ? cloudflareService.getImageUrl(value) : '';
+          });
+
+          try {
+            good.data = await chatGPTService.sendMessage(good.text);
+          } catch (err) {
+            console.log('Error happened while sending message to chatgpt', err);
+          }
+
+          websocketManager.sendMessageToClient(
+            clientId,
+            JSON.stringify({
+              event: 'GOODS',
+              data: {
+                goods: [good],
+                isError: false,
+                isFinished: false,
+              },
+            }),
+          );
         }),
       );
     }
@@ -167,7 +215,6 @@ class InstagramService {
       };
 
       await this.sendGoods(clientId, result);
-      await sleep(1000);
 
       return this.getNextPageWithGoods(
         pageCode,
