@@ -13,7 +13,9 @@ class ChatGPTService {
   constructor() {
     const { apikey } = appService.getChatGPTSettings();
 
-    this.prompt = readFileSync(path.resolve(__dirname, './prompt.txt'));
+    // this.prompt = readFileSync(path.resolve(__dirname, './prompt.txt'));
+    this.prompt =
+      'Разделить текст на категории: заголовок, описание, цена и атрибуты. Не редактируй текст. Пиши ответ в формате `{заголовок}|{описание}|{цена}|{атрибуты}`. Если категории нет, пиши @';
 
     this.openai = new OpenAI({
       apiKey: apikey,

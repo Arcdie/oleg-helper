@@ -102,6 +102,6 @@
   ],
   "typeRoots": [ /* Specify multiple folders that act like './node_modules/@types'. */
     "./src/types.d.ts",
-    "./node_modules/@types",
+    "./node_modules/@types"
   ]
 }
