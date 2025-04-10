@@ -27,6 +27,10 @@ class AppService {
     return this.getConfig().chatgpt;
   }
 
+  getMongodbSettings() {
+    return this.getConfig().mongodb;
+  }
+
   private getConfig() {
     return {
       app: {
@@ -35,6 +39,12 @@ class AppService {
         environment: process.env.NODE_ENV,
         port: Number(process.env.APP_PORT),
         websocketsPort: Number(process.env.WEBSOCKETS_PORT),
+      },
+
+      mongodb: {
+        host: String(process.env.MONGODB_HOST),
+        port: String(process.env.MONGODB_PORT),
+        database: String(process.env.MONGODB_DATABASE),
       },
 
       instagram: {

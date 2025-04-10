@@ -8,7 +8,7 @@
     "build": "rimraf dist && tsc -p tsconfig.json",
     "dev": "ts-node-dev --respawn ./src/app",
     "production": "pm2 start ./dist/app.js",
-    "build-css": "node-sass --include-path scss frontend/public/scss/styles.scss   frontend/public/stylesheets/styles.css",
+    "build-css": "sass --load-path=scss frontend/public/scss/styles.scss   frontend/public/stylesheets/styles.css",
     "watcher": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
@@ -25,6 +25,8 @@
     "express": "^4.18.2",
     "lodash": "^4.17.21",
     "moment": "^2.29.4",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2",
     "morgan": "^1.10.0",
     "openai": "^4.28.0",
     "pug": "^3.0.2",
@@ -46,8 +48,8 @@
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "node-sass": "^9.0.0",
     "prettier": "^2.8.8",
+    "sass": "^1.86.3",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.9.5"

@@ -40,7 +40,12 @@ class InstagramController {
     }
 
     const pageCode = instagramService.getPageCode(instagramLink);
-    instagramService.initGettingsGods(pageCode, clientId);
+
+    instagramService.initGettingsGods({
+      clientId,
+      pageCode,
+      instagramLink,
+    });
 
     return successResponse(res, { status: true });
   }

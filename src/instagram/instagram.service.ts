@@ -1,17 +1,21 @@
 import axios from 'axios';
+import * as fs from 'fs';
 
 import { getQueue, getUniqueId } from '../libs/helpers';
 
 import { appService } from '../app/app.service';
+import { shopsService } from '../shops/shops.service';
 import { imageService } from '../images/image.service';
 import { chatGPTService } from '../chatgpt/chatgpt.service';
 import { websocketManager } from '../websockets/websocket.manager';
+import { shopGoodsService } from '../shop-goods/shop-goods.service';
 import { cloudflareService } from '../cloudflare/cloudflare.service';
 
 import { POSTS_PER_REQUEST } from './instagram.constants';
 
-import { IGood } from '../goods/interfaces/good.interface';
+import { IShopGood } from '../shop-goods/shop-goods.model';
 import { IGetPostsResponse } from './interfaces/get-posts.response';
+import { IShopEntity } from '../shops/shops.model';
 
 class InstagramService {
   private parseUrl = 'https://www.instagram.com/api/graphql';
@@ -28,8 +32,21 @@ class InstagramService {
     return true;
   }
 
-  async initGettingsGods(pageCode: string, clientId: string) {
-    return this.getNextPageWithGoods(pageCode, clientId, 0);
+  async initGettingsGods(data: {
+    pageCode: string;
+    clientId: string;
+    instagramLink: string;
+  }) {
+    let shop = await shopsService.getShopByLink(data.instagramLink);
+
+    if (!shop) {
+      shop = await shopsService.create({
+        name: data.instagramLink,
+        link: data.instagramLink,
+      });
+    }
+
+    return this.getNextPageWithGoods(data, shop, 0);
   }
 
   getPageCode(instagramLink: string) {
@@ -39,8 +56,9 @@ class InstagramService {
 
   private async sendGoods(
     clientId: string,
+    shop: IShopEntity,
     data: {
-      goods: IGood[];
+      goods: IShopGood[];
       isError: boolean;
       isFinished: boolean;
     },
@@ -61,7 +79,7 @@ class InstagramService {
     for await (const e of queue) {
       await Promise.all(
         e.map(async (good) => {
-          if (!good.text) {
+          if (!good.description) {
             return;
           }
 
@@ -94,7 +112,14 @@ class InstagramService {
           });
 
           try {
-            good.data = await chatGPTService.sendMessage(good.text);
+            const chatData = await chatGPTService.sendMessage(good.description);
+            // todo: fill good
+
+            await shopGoodsService.create({
+              shop_id: shop._id,
+              images: good.images,
+              link: good.link,
+            });
           } catch (err) {
             console.log('Error happened while sending message to chatgpt', err);
           }
@@ -130,8 +155,11 @@ class InstagramService {
   }
 
   private async getNextPageWithGoods(
-    pageCode: string,
-    clientId: string,
+    options: {
+      pageCode: string;
+      clientId: string;
+    },
+    shop: IShopEntity,
     page = 0,
     after = '',
   ): Promise<boolean> {
@@ -140,14 +168,14 @@ class InstagramService {
 
       const variables =
         page === 0
-          ? { data: { count: POSTS_PER_REQUEST }, username: pageCode }
+          ? { data: { count: POSTS_PER_REQUEST }, username: options.pageCode }
           : {
               after: after,
               before: null,
               data: { count: POSTS_PER_REQUEST },
               first: POSTS_PER_REQUEST,
               last: null,
-              username: pageCode,
+              username: options.pageCode,
             };
 
       const response = await axios<IGetPostsResponse>(this.parseUrl, {
@@ -157,6 +185,11 @@ class InstagramService {
           JSON.stringify(variables),
         )}`,
       });
+
+      fs.writeFileSync(
+        './instagram-response.json',
+        JSON.stringify(response.data, null, 2),
+      );
 
       if (
         !response.data ||
@@ -171,7 +204,7 @@ class InstagramService {
           goods: [],
         };
 
-        this.sendGoods(clientId, result);
+        this.sendGoods(options.clientId, shop, result);
         return false;
       }
 
@@ -192,8 +225,9 @@ class InstagramService {
 
         return {
           link: e.node.code,
-          text: e.node.caption?.text || '',
+          description: e.node.caption?.text || '',
           images,
+          shop_id: shop._id,
         };
       });
 
@@ -204,7 +238,7 @@ class InstagramService {
           goods: newPosts,
         };
 
-        this.sendGoods(clientId, result);
+        this.sendGoods(options.clientId, shop, result);
         return true;
       }
 
@@ -214,11 +248,11 @@ class InstagramService {
         goods: newPosts,
       };
 
-      await this.sendGoods(clientId, result);
+      await this.sendGoods(options.clientId, shop, result);
 
       return this.getNextPageWithGoods(
-        pageCode,
-        clientId,
+        options,
+        shop,
         page + 1,
         pageInfo.end_cursor,
       );
@@ -231,7 +265,7 @@ class InstagramService {
         goods: [],
       };
 
-      this.sendGoods(clientId, result);
+      this.sendGoods(options.clientId, shop, result);
       return false;
     }
   }

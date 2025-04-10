@@ -4,7 +4,8 @@ import * as path from 'path';
 import { readFileSync } from '../libs/fs';
 
 import { appService } from '../app/app.service';
-import { IGood } from '../goods/interfaces/good.interface';
+import { IShopGood } from '../shop-goods/shop-goods.model';
+// import { IShopGood } from '../shop-goods/interfaces/shop-good.interface';
 
 class ChatGPTService {
   private openai: OpenAI;
@@ -23,7 +24,23 @@ class ChatGPTService {
   }
 
   async sendMessage(message: string) {
+    return undefined;
+
+    /*
     const response = await this.openai.chat.completions.create({
+      messages: [
+        { role: 'system', content: this.prompt },
+        { role: 'user', content: message },
+      ],
+      model: 'gpt-4-turbo',
+      temperature: 1,
+      max_tokens: 256,
+      top_p: 1,
+      frequency_penalty: 0,
+      presence_penalty: 0,
+    });
+
+    console.log({
       messages: [
         { role: 'system', content: this.prompt },
         { role: 'user', content: message },
@@ -44,17 +61,16 @@ class ChatGPTService {
       return this.parseMessage(response.choices[0].message.content);
     }
 
-    console.log(response.choices);
-
     return undefined;
+    */
   }
 
-  private parseMessage(content: string): IGood['data'] {
+  private parseMessage(content: string) {
     const [title, description, price, attributes] = content.split('|');
 
     return {
       title: title !== '@' ? title : '',
-      description: description !== '@' ? description : '',
+      pretty_description: description !== '@' ? description : '',
       price: price !== '@' ? price : '',
       attributes: attributes !== '@' ? attributes : '',
     };

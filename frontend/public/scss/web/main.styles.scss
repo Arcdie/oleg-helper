@@ -2,9 +2,14 @@
   .search {
     display: flex;
     justify-content: center;
+    align-items: center;
 
     .oh-search-container {
       width: 50%;
+    }
+
+    a.oh-download {
+      margin-left: 10px;
     }
   }
 

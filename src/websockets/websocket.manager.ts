@@ -1,3 +1,5 @@
+import * as fs from 'fs';
+import https from 'https';
 import { WebsocketServerLib } from '../libs/websocket-server.lib';
 
 import { appService } from '../app/app.service';
@@ -9,10 +11,26 @@ class WebsocketManager {
   constructor() {
     const { websocketsPort } = appService.getAppSettings();
 
+    /*
+    const server = https.createServer({
+      cert: fs.readFileSync(
+        '/etc/letsencrypt/live/instagram-helper.fun/fullchain.pem',
+        'utf-8',
+      ),
+
+      key: fs.readFileSync(
+        '/etc/letsencrypt/live/instagram-helper.fun/privkey.pem',
+        'utf-8',
+      ),
+    });
+    */
+
     this.connection = new WebsocketServerLib({
       port: websocketsPort,
+      // server,
     });
 
+    // server.listen(websocketsPort);
     this.connection.onConnection(this.onUserConnected.bind(this));
   }
 

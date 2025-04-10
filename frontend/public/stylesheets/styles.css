@@ -1,57 +1,75 @@
 body {
-  background: url("/images/background.png") repeat; }
+  background: url("/images/background.png") repeat;
+}
 
 .page {
   width: 100%;
   height: 100%;
-  padding: 50px; }
+  padding: 50px;
+}
 
 .page.main .search {
   display: flex;
-  justify-content: center; }
-  .page.main .search .oh-search-container {
-    width: 50%; }
-
+  justify-content: center;
+  align-items: center;
+}
+.page.main .search .oh-search-container {
+  width: 50%;
+}
+.page.main .search a.oh-download {
+  margin-left: 10px;
+}
 .page.main .results {
   display: flex;
   justify-content: center;
   margin-top: 25px;
-  display: none; }
-  .page.main .results.active {
-    display: flex; }
-  .page.main .results .handled p {
-    display: inline-block;
-    margin-bottom: 0; }
-  .page.main .results .handled span {
-    margin-left: 8px;
-    display: inline-block;
-    background-color: white;
-    padding: 0 6px;
-    border: 1px solid #ccc;
-    border-radius: 5px; }
-  .page.main .results .save-excel {
-    width: 40px;
-    position: relative;
-    bottom: 2px; }
-    .page.main .results .save-excel button {
-      width: 100%;
-      height: 100%;
-      border: none;
-      background-color: transparent; }
-      .page.main .results .save-excel button img {
-        width: 100%;
-        height: 100%; }
-
+  display: none;
+}
+.page.main .results.active {
+  display: flex;
+}
+.page.main .results .handled p {
+  display: inline-block;
+  margin-bottom: 0;
+}
+.page.main .results .handled span {
+  margin-left: 8px;
+  display: inline-block;
+  background-color: white;
+  padding: 0 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.page.main .results .save-excel {
+  width: 40px;
+  position: relative;
+  bottom: 2px;
+}
+.page.main .results .save-excel button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+}
+.page.main .results .save-excel button img {
+  width: 100%;
+  height: 100%;
+}
 .page.main .goods {
   display: flex;
   margin-top: 17px;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start; }
-  .page.main .goods .card {
-    width: 20%;
-    margin: 15px;
-    display: flex; }
-    .page.main .goods .card a.btn {
-      width: 100%;
-      margin-top: 10px; }
+  align-items: flex-start;
+}
+.page.main .goods .card {
+  width: 20%;
+  margin: 15px;
+  display: flex;
+}
+.page.main .goods .card a.btn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -3,7 +3,7 @@
 const URL_CREATE_EXCEL_FILE = '/api/excel';
 const URL_INIT_GETTING_GOODS = '/api/instagram/goods';
 
-const wsConnectionPort = 3002;
+const wsConnectionPort = 3004;
 
 let clientId = '';
 let goodsHistory = [];
