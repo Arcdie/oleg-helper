@@ -6,11 +6,12 @@ export interface IShopGood {
   shop_id: Types.ObjectId | IShop;
   link: string;
   images: string[];
+  text: string;
 
   description?: string;
   title?: string;
   price?: string;
-  attributes?: string[];
+  attributes?: string;
 }
 
 export interface IShopGoodEntity extends Document, IShopGood {}
@@ -27,12 +28,13 @@ const ShopGoodSchema = new Schema<IShopGoodEntity>({
     required: true,
   },
 
+  text: String,
   images: [{ type: String, required: true }],
 
   description: String,
   title: String,
   price: String,
-  attributes: [String],
+  attributes: String,
 });
 
 export const ShopGoodModel = model<IShopGoodEntity>(

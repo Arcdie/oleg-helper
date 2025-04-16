@@ -3,9 +3,32 @@ extends ../app
 block variables
   -
     const pageTitle = `Магазини`;
+    console.log(shops);
 
 block content
   .page.shops
+    table.table-bordered
+      tr
+        th #
+        th Назва
+        th Посилання
+        th Товари
+      
+      tr
+        td 1
+        td ivalentyn
+        td
+          a.link(href='https://www.instagram.com/_ivalentyn/') ivalentyn
+        td
+          a.btn.btn-primary(href='/shops/goods?shop_id=123') Перейти
+
+      tr
+        td 2
+        td ivalentyn
+        td
+          a.link(href='https://www.instagram.com/_ivalentyn/') ivalentyn
+        td
+          a.btn.btn-primary(href='/shops/goods?shop_id=123') Перейти
 
 block scripts
   script(src='/javascripts/web/shops.script.js')

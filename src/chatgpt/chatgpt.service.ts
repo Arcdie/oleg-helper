@@ -24,23 +24,10 @@ class ChatGPTService {
   }
 
   async sendMessage(message: string) {
-    return undefined;
+    // return undefined;
 
-    /*
+    // /*
     const response = await this.openai.chat.completions.create({
-      messages: [
-        { role: 'system', content: this.prompt },
-        { role: 'user', content: message },
-      ],
-      model: 'gpt-4-turbo',
-      temperature: 1,
-      max_tokens: 256,
-      top_p: 1,
-      frequency_penalty: 0,
-      presence_penalty: 0,
-    });
-
-    console.log({
       messages: [
         { role: 'system', content: this.prompt },
         { role: 'user', content: message },
@@ -62,7 +49,7 @@ class ChatGPTService {
     }
 
     return undefined;
-    */
+    // */
   }
 
   private parseMessage(content: string) {

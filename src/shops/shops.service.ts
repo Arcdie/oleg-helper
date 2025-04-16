@@ -2,8 +2,9 @@ import { IShop, ShopModel } from './shops.model';
 
 class ShopsService {
   async create(data: IShop) {
-    const newGood = new ShopModel(data);
-    return newGood;
+    const newShop = new ShopModel(data);
+    await newShop.save();
+    return newShop;
   }
 
   async getShops() {

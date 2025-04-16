@@ -1,5 +1,5 @@
 import axios from 'axios';
-import * as fs from 'fs';
+// import * as fs from 'fs';
 
 import { getQueue, getUniqueId } from '../libs/helpers';
 
@@ -32,17 +32,13 @@ class InstagramService {
     return true;
   }
 
-  async initGettingsGods(data: {
-    pageCode: string;
-    clientId: string;
-    instagramLink: string;
-  }) {
-    let shop = await shopsService.getShopByLink(data.instagramLink);
+  async initGettingsGods(data: { pageCode: string; clientId: string }) {
+    let shop = await shopsService.getShopByLink(data.pageCode);
 
     if (!shop) {
       shop = await shopsService.create({
-        name: data.instagramLink,
-        link: data.instagramLink,
+        name: data.pageCode,
+        link: data.pageCode,
       });
     }
 
@@ -79,7 +75,7 @@ class InstagramService {
     for await (const e of queue) {
       await Promise.all(
         e.map(async (good) => {
-          if (!good.description) {
+          if (!good.text) {
             return;
           }
 
@@ -112,14 +108,33 @@ class InstagramService {
           });
 
           try {
-            const chatData = await chatGPTService.sendMessage(good.description);
-            // todo: fill good
+            const chatData = await chatGPTService.sendMessage(good.text);
+
+            const title = chatData?.title || '[Без названия]';
+            const price = String(
+              chatData?.price
+                ? !isNaN(parseFloat(chatData.price))
+                  ? parseFloat(chatData.price)
+                  : 100
+                : 100,
+            );
 
             await shopGoodsService.create({
               shop_id: shop._id,
               images: good.images,
               link: good.link,
+              text: good.text,
+
+              title,
+              price,
+              description: chatData?.pretty_description,
+              attributes: chatData?.attributes,
             });
+
+            good.title = title;
+            good.price = price;
+            good.description = chatData?.pretty_description;
+            good.attributes = chatData?.attributes;
           } catch (err) {
             console.log('Error happened while sending message to chatgpt', err);
           }
@@ -186,10 +201,10 @@ class InstagramService {
         )}`,
       });
 
-      fs.writeFileSync(
-        './instagram-response.json',
-        JSON.stringify(response.data, null, 2),
-      );
+      // fs.writeFileSync(
+      //   './instagram-response.json',
+      //   JSON.stringify(response.data, null, 2),
+      // );
 
       if (
         !response.data ||
@@ -225,7 +240,7 @@ class InstagramService {
 
         return {
           link: e.node.code,
-          description: e.node.caption?.text || '',
+          text: e.node.caption?.text || '',
           images,
           shop_id: shop._id,
         };

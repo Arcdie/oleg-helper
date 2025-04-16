@@ -7,7 +7,6 @@ import { shopsService } from './shops.service';
 class ShopsController {
   async getShops(req: Request, res: Response) {
     const shops = await shopsService.getShops();
-
     return successResponse(res, { shops });
   }
 }

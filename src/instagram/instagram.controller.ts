@@ -44,7 +44,6 @@ class InstagramController {
     instagramService.initGettingsGods({
       clientId,
       pageCode,
-      instagramLink,
     });
 
     return successResponse(res, { status: true });

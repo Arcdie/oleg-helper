@@ -1,50 +1,12 @@
 /* Constants */
 
-const URL_CREATE_EXCEL_FILE = '/api/excel';
-const URL_INIT_GETTING_GOODS = '/api/instagram/goods';
-
-const wsConnectionPort = 3004;
-
-let clientId = '';
-let goodsHistory = [];
+const URL_GET_SHOPS = '/api/shops';
 
 /* JQuery */
-const $start = $('#start');
-const $link = $('#instagram-link');
-
-const $goods = $('.goods');
-const $results = $('.results');
 
 $(async () => {
-  initWebsockets(async ({ data }) => {
-    const message = JSON.parse(data);
+  const shops = 
 
-    if (message.event === 'INIT') {
-      clientId = message.data;
-      return;
-    }
-
-    const { goods, isError, isFinished } = message.data;
-    goodsHistory.push(...goods);
-    
-    if (isError) {
-      alert('Сталася помилка, завантаженi не всi товари');
-    }
-
-    if (goods.length) {
-      $results
-        .find('.handled span')
-        .text(goodsHistory.length);
-
-      appendGoods(goods);
-    }
-
-    if (isFinished && goodsHistory.length > 0) {
-      alert('Завершив завантаження');
-      const preparedData = prepareDataForExcelFile(goodsHistory);
-      await createExcelFile(preparedData);
-    }
-  });
 
   $start
     .on('click', async () => {
@@ -125,7 +87,7 @@ const prepareDataForExcelFile = (goods) => {
     const attributes = g?.attributes || '';
     const description = g?.description || '';
 
-    console.log([
+    console.log(g, [
       i + 1,
       title,
       description,
