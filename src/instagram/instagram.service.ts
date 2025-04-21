@@ -110,7 +110,7 @@ class InstagramService {
           try {
             const chatData = await chatGPTService.sendMessage(good.text);
 
-            const title = chatData?.title || '[Без названия]';
+            const title = chatData?.title || '[Без назви]';
             const price = String(
               chatData?.price
                 ? !isNaN(parseFloat(chatData.price))

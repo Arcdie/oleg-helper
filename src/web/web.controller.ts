@@ -13,8 +13,15 @@ class WebController {
     res.render('web/shops', { shops });
   }
 
-  getShopGoodsPage(req: Request, res: Response) {
-    res.render('web/shop-goods');
+  async getShopGoodsPage(req: Request, res: Response) {
+    const { shop_id } = req.query;
+
+    if (!shop_id) {
+      return res.sendStatus(404);
+    }
+
+    const goods = await shopGoodsService.getShopGoods(shop_id);
+    res.render('web/shop-goods', { goods });
   }
 }
 

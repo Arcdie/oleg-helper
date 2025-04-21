@@ -3,11 +3,58 @@
     width: 100%;
     text-align: center;
 
+    th {
+      &.id {
+        width: 1%;
+      }
+
+      &.title {
+        width: 10%;
+      }
+
+      &.description {
+        width: 20%;
+      }
+
+      &.price {
+        width: 10%;
+      }
+
+      &.attributes {
+        width: 10%;
+      }
+
+      &.text {
+        width: 20%;
+      }
+
+      &.link {
+        width: 10%;
+      }
+
+      &.images {
+        width: 10%;
+      }
+    }
+
     td {
       padding: 10px 20px;
 
+      input.price {
+        text-align: center;
+      }
+
+      p.text {
+        text-align: left;
+      }
+
       img {
         max-width: 100px;
+        border-bottom: 3px solid black;
+      }
+
+      textarea {
+        resize: none;
       }
     }
   }

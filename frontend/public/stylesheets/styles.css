@@ -8,6 +8,10 @@ body {
   padding: 50px;
 }
 
+.back {
+  margin-bottom: 10px;
+}
+
 .page.main .search {
   display: flex;
   justify-content: center;
@@ -76,19 +80,59 @@ body {
   width: 100%;
   text-align: center;
 }
+.page.shops table th.id {
+  width: 1%;
+}
+.page.shops table th.name {
+  width: 10%;
+}
 .page.shops table td {
-  padding: 10px 0;
+  padding: 10px 20px;
 }
 
 .page.shop-goods table {
   width: 100%;
   text-align: center;
 }
+.page.shop-goods table th.id {
+  width: 1%;
+}
+.page.shop-goods table th.title {
+  width: 10%;
+}
+.page.shop-goods table th.description {
+  width: 20%;
+}
+.page.shop-goods table th.price {
+  width: 10%;
+}
+.page.shop-goods table th.attributes {
+  width: 10%;
+}
+.page.shop-goods table th.text {
+  width: 20%;
+}
+.page.shop-goods table th.link {
+  width: 10%;
+}
+.page.shop-goods table th.images {
+  width: 10%;
+}
 .page.shop-goods table td {
   padding: 10px 20px;
 }
+.page.shop-goods table td input.price {
+  text-align: center;
+}
+.page.shop-goods table td p.text {
+  text-align: left;
+}
 .page.shop-goods table td img {
   max-width: 100px;
+  border-bottom: 3px solid black;
+}
+.page.shop-goods table td textarea {
+  resize: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

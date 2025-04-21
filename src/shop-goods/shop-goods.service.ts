@@ -1,3 +1,4 @@
+import { IShopEntity } from '../shops/shops.model';
 import { ShopGoodModel, IShopGood } from './shop-goods.model';
 
 class ShopsGoodsService {
@@ -5,6 +6,11 @@ class ShopsGoodsService {
     const newGood = new ShopGoodModel(data);
     await newGood.save();
     return newGood;
+  }
+
+  async getShopGoods(shopId: IShopEntity['id']) {
+    const goods = await ShopGoodModel.find({ shop_id: shopId });
+    return goods;
   }
 }
 
