@@ -86,8 +86,19 @@ body {
 .page.shops table th.name {
   width: 10%;
 }
+.page.shops table th.actions {
+  width: 10%;
+}
 .page.shops table td {
   padding: 10px 20px;
+}
+.page.shops table td .actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.page.shops table td .actions button {
+  margin-top: 20px;
 }
 
 .page.shop-goods table {
@@ -112,7 +123,7 @@ body {
 .page.shop-goods table th.text {
   width: 20%;
 }
-.page.shop-goods table th.link {
+.page.shop-goods table th.actions {
   width: 10%;
 }
 .page.shop-goods table th.images {
@@ -133,6 +144,31 @@ body {
 }
 .page.shop-goods table td textarea {
   resize: none;
+}
+.page.shop-goods table td .actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.page.shop-goods nav {
+  display: flex;
+  justify-content: space-between;
+}
+.page.shop-goods nav .save-excel {
+  width: 40px;
+  position: relative;
+  bottom: 2px;
+  display: flex;
+  align-items: center;
+}
+.page.shop-goods nav .save-excel button {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+.page.shop-goods nav .save-excel button img {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

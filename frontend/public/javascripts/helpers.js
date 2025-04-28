@@ -57,7 +57,7 @@ const sendRequest = async (method, url, data) => {
 
   if (method === 'GET' && data) {
     settings.query = data;
-  } else if (['POST', 'PUT'].includes(method) && data) {
+  } else if (['POST', 'PUT', 'DELETE'].includes(method) && data) {
     settings.body = data;
   }
 
@@ -79,3 +79,4 @@ const sendRequest = async (method, url, data) => {
 const sendGetRequest = (url, query = {}) => sendRequest('GET', url, query);
 const sendPutRequest = (url, body) => sendRequest('PUT', url, body);
 const sendPostRequest = (url, body) => sendRequest('POST', url, body);
+const sendDeleteRequest = (url, body) => sendRequest('DELETE', url, body);

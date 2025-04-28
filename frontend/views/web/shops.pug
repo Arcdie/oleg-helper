@@ -9,22 +9,27 @@ block content
     .back
       a.btn.btn-dark(href='/') Назад
   
-    table.table-bordered
+    table.table-bordered#shops
       tr
         th.id #
         th.name Назва
         th Посилання
-        th Товари
-      
+        th.actions
+
       each shop, index in shops
         tr(id= `shop_${shop._id}`)
           td #{index + 1}
-          td
-            input.form-control(type='text', value= shop.name)
+
+          td.name
+            input.form-control.data(type='text', value= shop.name)
+
           td
             a.link(href= `https://www.instagram.com/${shop.link}`, target='_blank') #{shop.link}
-          td
-            a.btn.btn-primary(href= `/shops/goods?shop_id=${shop._id}`) Перейти
+
+          td.actions
+            .actions
+              a.btn.btn-primary(href= `/shops/goods?shop_id=${shop._id}`) Товари
+              button.btn.btn-danger Видалити
 
 block scripts
   script(src='/javascripts/web/shops.script.js')

@@ -11,10 +11,24 @@
       &.name {
         width: 10%;
       }
+
+      &.actions {
+        width: 10%;
+      }
     }
 
     td {
       padding: 10px 20px;
+
+      .actions {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        button {
+          margin-top: 20px;
+        }
+      }
     }
   }
 }

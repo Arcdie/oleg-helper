@@ -20,7 +20,7 @@ class WebController {
       return res.sendStatus(404);
     }
 
-    const goods = await shopGoodsService.getShopGoods(shop_id);
+    const goods = await shopGoodsService.getMany(shop_id);
     res.render('web/shop-goods', { goods });
   }
 }

@@ -1,9 +1,10 @@
 import { Router } from 'express';
 
-// import { shopsController } from './shop-goods.controller';
+import { shopGoodsController } from './shop-goods.controller';
 
 const router = Router();
 
-// router.get('/', shopsController.getShops);
+router.put('/', shopGoodsController.changeShopGood);
+router.delete('/', shopGoodsController.deleteShopGood);
 
 export default router;

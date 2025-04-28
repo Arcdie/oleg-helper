@@ -6,10 +6,15 @@ block variables
 
 block content
   .page.shop-goods
-    .back
-      a.btn.btn-dark(href='/shops') Назад
+    nav
+      .back
+        a.btn.btn-dark(href='/shops') Назад
 
-    table.table-bordered
+      .save-excel
+          button
+            img(src='/images/excel.png', alt='excel')
+
+    table.table-bordered#goods
       tr
         th.id #
         th.title Заголовок
@@ -17,35 +22,37 @@ block content
         th.price Ціна
         th.attributes Атрибути
         th.text Повний опис
-        th.link Посилання
         th.images Зображення
+        th.actions
 
       each good, index in goods
         tr(id= `good_${good._id}`)
           td #{index + 1}
 
-          td
-            input.form-control.full-height(type='text', value= good.title)
+          td.title
+            input.form-control.data(type='text', value= good.title, title= good.title)
 
-          td
-            textarea.form-control.full-height #{good.description}
+          td.description
+            textarea.form-control.full-height.data #{good.description}
 
-          td
-            input.price.form-control.full-height(type='text', value= good.price)
+          td.price
+            input.price.form-control.data(type='text', value= good.price)
 
-          td
-            textarea.form-control.full-height #{good.attributes}
+          td.attributes
+            textarea.form-control.full-height.data #{good.attributes}
 
-          td
-            p.tex.full-heightt #{good.text}
-
-          td
-            a.btn.btn-primary(href= `https://www.instagram.com/p/${good.link}`, target='_blank') Перейти
-
-          td
+          td.text
+            p.text #{good.text}
+          
+          td.images
             each src of good.images
               img(src= src)
 
+          td.actions
+            .actions.full-height
+              a.btn.btn-primary.link(href= `https://www.instagram.com/p/${good.link}`, target='_blank') Перейти
+              button.btn.btn-danger Видалити
+
 block scripts
-  script(src='/javascripts/web/shops.script.js')
+  script(src='/javascripts/web/goods.script.js')
   

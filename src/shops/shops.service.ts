@@ -1,4 +1,4 @@
-import { IShop, ShopModel } from './shops.model';
+import { IShop, IShopEntity, ShopModel } from './shops.model';
 
 class ShopsService {
   async create(data: IShop) {
@@ -14,6 +14,18 @@ class ShopsService {
 
   async getShopByLink(link: string) {
     return ShopModel.findOne({ link });
+  }
+
+  async update(shopId: IShopEntity['id'], changes: Partial<IShopEntity>) {
+    return ShopModel.findByIdAndUpdate(
+      shopId,
+      { $set: changes },
+      { new: true },
+    ).exec();
+  }
+
+  async delete(shopGoodId: IShopEntity['id']) {
+    return ShopModel.findByIdAndDelete(shopGoodId);
   }
 }
 
