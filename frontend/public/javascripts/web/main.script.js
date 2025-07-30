@@ -1,6 +1,5 @@
 /* Constants */
 
-const URL_CREATE_EXCEL_FILE = '/api/excel';
 const URL_INIT_GETTING_GOODS = '/api/instagram/goods';
 
 const wsConnectionPort = 3004;
@@ -39,10 +38,12 @@ $(async () => {
       appendGoods(goods);
     }
 
-    if (isFinished && goodsHistory.length > 0) {
+    if (isFinished && goodsHistory.length > 0) {      
+      if (goodsHistory.length) {
+        return location.href = `/shops/goods?shop_id=${goodsHistory[0].shop_id}`;
+      }
+
       alert('Завершив завантаження');
-      const preparedData = prepareDataForExcelFile(goodsHistory);
-      await createExcelFile(preparedData);
     }
   });
 
@@ -66,16 +67,6 @@ $(async () => {
       await initGettingsGods(instagramLink);
 
       $results.addClass('active');
-    });
-
-  $('.save-excel')
-    .on('click', async () => {
-      if (!goodsHistory.length) {
-        return;
-      }
-
-      const preparedData = prepareDataForExcelFile(goodsHistory);
-      await createExcelFile(preparedData);
     });
 });
 
@@ -106,7 +97,7 @@ const appendGoods = (goods) => {
       </div>
   
       <div class="card-body">
-        <p class="card-text">${g.text}</a>
+        <p class="card-text">${g.full_description}</a>
         <a class="btn btn-dark" href="https://www.instagram.com/p/${g.link}" target="_blank">Перейти</a>
       </div>
     </div>`;
@@ -115,75 +106,8 @@ const appendGoods = (goods) => {
   $goods.append(appendStr);
 };
 
-const prepareDataForExcelFile = (goods) => {
-  const tableBody = [];
-  const tableHeaders = ['#', 'Заголовок', 'Опис', 'Ціна', 'Атрибути', 'Повний опис', 'Посилання', 'Зображення'];
-
-  goods.forEach((g, i) => {
-    const title = g?.title || '';
-    const price = g?.price || '';
-    const attributes = g?.attributes || '';
-    const description = g?.description || '';
-
-    console.log([
-      i + 1,
-      title,
-      description,
-      price,
-      attributes,
-      g.text,
-      `https://www.instagram.com/p/${g.link}`,
-      g.images.join(',')
-    ]);
-
-    tableBody.push([
-      i + 1,
-      title,
-      description,
-      price,
-      attributes,
-      g.text,
-      `https://www.instagram.com/p/${g.link}`,
-      g.images.join(',')
-    ]);
-  });
-
-  return {
-    tableBody,
-    tableHeaders,
-  };
-}
-
 const initGettingsGods = async (instagramLink) => {
   return sendPostRequest(URL_INIT_GETTING_GOODS, { instagramLink, clientId });
-};
-
-const createExcelFile = async ({ tableHeaders, tableBody }) => {
-  const response = await fetch(URL_CREATE_EXCEL_FILE, {
-    method: 'POST',
-    body: JSON.stringify({
-      tableBody,
-      tableHeaders,
-    }),
-    headers: {
-      'Content-Type': 'application/json',
-    },
-  });
-
-  if (!response.ok) {
-    alert('CANT_CREATE_EXCEL_FILE');
-  }
-
-  const blob = await response.blob();
-
-  const link = document.createElement('a');
-  link.href = window.URL.createObjectURL(blob);
-  link.download = 'output.xlsx';
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-  
-  return true;
 };
 
 const getWebsocketUrl = () => {

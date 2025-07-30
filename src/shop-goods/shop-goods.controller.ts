@@ -4,27 +4,31 @@ import { successResponse, badRequestResponse } from '../libs/express-responses';
 
 import { IShopGoodEntity } from './shop-goods.model';
 
-import { shopsService } from '../shops/shops.service';
 import { shopGoodsService } from './shop-goods.service';
 
 class ShopGoodsController {
-  async getShops(req: Request, res: Response) {
-    const shops = await shopsService.getShops();
-    return successResponse(res, { shops });
-  }
+  async getShopGoods(req: Request, res: Response) {
+    const shopId = req.query.shop_id;
+    console.log(shopId);
 
-  async changeShopGood(req: Request, res: Response) {
-    const {
-      shop_good_id,
-      changes,
-    }: { shop_good_id: string; changes: Partial<IShopGoodEntity> } = req.body;
-
-    if (!shop_good_id) {
+    if (!shopId) {
       return badRequestResponse(res);
     }
 
-    const updatedGood = await shopGoodsService.update(shop_good_id, changes);
-    return successResponse(res, { status: true, result: updatedGood });
+    const goods = await shopGoodsService.getMany(shopId);
+    return successResponse(res, { status: true, result: goods });
+  }
+
+  async updateShopGoods(req: Request, res: Response) {
+    const { changes }: { changes: IShopGoodEntity[] } = req.body;
+
+    await Promise.all(
+      changes.map(async (c) => {
+        await shopGoodsService.update(c._id, c);
+      }),
+    );
+
+    return successResponse(res, { status: true, result: changes });
   }
 
   async deleteShopGood(req: Request, res: Response) {

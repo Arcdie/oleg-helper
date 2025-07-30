@@ -10,46 +10,108 @@ block content
       .back
         a.btn.btn-dark(href='/shops') Назад
 
-      .save-excel
+      div
+        #save
+          button.btn.btn-dark Cохранить
+
+        .save-excel
           button
             img(src='/images/excel.png', alt='excel')
 
-    table.table-bordered#goods
-      tr
-        th.id #
-        th.title Заголовок
-        th.description Опис
-        th.price Ціна
-        th.attributes Атрибути
-        th.text Повний опис
-        th.images Зображення
-        th.actions
+    .table-goods
+      .table-header
+        .item
+          .column.id
+            h4 # 
 
-      each good, index in goods
-        tr(id= `good_${good._id}`)
-          td #{index + 1}
+          .column 
+            h4 Заголовок
 
-          td.title
-            input.form-control.data(type='text', value= good.title, title= good.title)
+          .column
+            h4 Короткий опис
 
-          td.description
-            textarea.form-control.full-height.data #{good.description}
+          .column
+            h4 Повний опис
 
-          td.price
-            input.price.form-control.data(type='text', value= good.price)
+          .column
+            h4 Ціна
 
-          td.attributes
-            textarea.form-control.full-height.data #{good.attributes}
+          .column
+            h4 Категорії
 
-          td.text
-            p.text #{good.text}
-          
-          td.images
-            each src of good.images
-              img(src= src)
+          .column
+            h4 Колір
 
-          td.actions
-            .actions.full-height
+          .column
+            h4 Розмір
+
+          .column
+            h4 Атрибути
+
+          .column
+            h4 Зображення
+
+          .column
+            h4
+
+      .table-body
+        each good, index in goods
+          .item(id= `good_${good._id}`)
+            .column
+              textarea.form-control #{good.unique_id}
+
+            .column.title
+              textarea.form-control #{good.title}
+
+            .column
+              textarea.form-control #{good.short_description}
+
+            .column
+              textarea.form-control #{good.full_description}
+              
+            .column
+              textarea.form-control #{good.price}
+            
+            .column
+              textarea.form-control #{good.categories.length ? good.categories.join(',') : ''}
+
+            .column
+              textarea.form-control #{good.colors.length ? good.colors.join(',') : ''}
+
+            .column
+              textarea.form-control #{good.sizes.length ? good.sizes.join(',') : ''}
+
+            .column.attributes
+              .input-group
+                span.input-group-text custom_1
+                input.form-control.name(type="text", placeholder='Name', value= good.attributes['custom_1'] && good.attributes['custom_1'][0])
+                input.form-control.value(type="text", placeholder='Value', value= good.attributes['custom_1'] && good.attributes['custom_1'][1])
+
+              .input-group
+                span.input-group-text custom_2
+                input.form-control.name(type="text", placeholder='Name', value= good.attributes['custom_2'] && good.attributes['custom_2'][0])
+                input.form-control.value(type="text", placeholder='Value', value= good.attributes['custom_2'] && good.attributes['custom_2'][1])
+
+              .input-group
+                span.input-group-text custom_3
+                input.form-control.name(type="text", placeholder='Name', value= good.attributes['custom_3'] && good.attributes['custom_3'][0])
+                input.form-control.value(type="text", placeholder='Value', value= good.attributes['custom_3'] && good.attributes['custom_3'][1])
+
+              .input-group
+                span.input-group-text custom_4
+                input.form-control.name(type="text", placeholder='Name', value= good.attributes['custom_4'] && good.attributes['custom_4'][0])
+                input.form-control.value(type="text", placeholder='Value', value= good.attributes['custom_4'] && good.attributes['custom_4'][1])
+
+              .input-group
+                span.input-group-text custom_5
+                input.form-control.name(type="text", placeholder='Name', value= good.attributes['custom_5'] && good.attributes['custom_5'][0])
+                input.form-control.value(type="text", placeholder='Value', value= good.attributes['custom_5'] && good.attributes['custom_5'][1])
+
+            .column.images
+              each src of good.images
+                img(src= src)
+
+            .column.actions
               a.btn.btn-primary.link(href= `https://www.instagram.com/p/${good.link}`, target='_blank') Перейти
               button.btn.btn-danger Видалити
 

@@ -80,3 +80,17 @@ const sendGetRequest = (url, query = {}) => sendRequest('GET', url, query);
 const sendPutRequest = (url, body) => sendRequest('PUT', url, body);
 const sendPostRequest = (url, body) => sendRequest('POST', url, body);
 const sendDeleteRequest = (url, body) => sendRequest('DELETE', url, body);
+
+const addAlert = (level, message) => {
+  const id = new Date().getTime();
+
+  $('.alerts').append(`<div id="alert-${id}" class="alert ${level}">
+    <div class="alert-content">
+      <p>${message}</p>
+    </div>
+  </div>`);
+
+  setTimeout(() => {
+    $(`#alert-${id}`).remove();
+  }, 1500);
+};

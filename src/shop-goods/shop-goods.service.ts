@@ -12,6 +12,10 @@ class ShopsGoodsService {
     shopGoodId: IShopGoodEntity['id'],
     changes: Partial<IShopGoodEntity>,
   ) {
+    if (changes.attributes && Object.keys(changes.attributes).length) {
+      console.log(changes);
+    }
+
     return ShopGoodModel.findByIdAndUpdate(
       shopGoodId,
       { $set: changes },

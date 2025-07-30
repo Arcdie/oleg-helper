@@ -1,0 +1,100 @@
+.page.shop-goods {
+  table {
+    width: 100%;
+    text-align: center;
+
+    th {
+      border: 1px solid black;
+
+      // &.id {
+      //   width: 1%;
+      // }
+
+      // &.title {
+      //   width: 10%;
+      // }
+
+      // &.description {
+      //   width: 20%;
+      // }
+
+      // &.price {
+      //   width: 10%;
+      // }
+
+      // &.attributes {
+      //   width: 10%;
+      // }
+
+      // &.text {
+      //   width: 20%;
+      // }
+
+      // &.actions {
+      //   width: 10%;
+      // }
+
+      // &.images {
+      //   width: 10%;
+      // }
+    }
+
+    td {
+      // display: flex;
+      // border-bottom: 1px solid black;
+
+      textarea {
+        height: 100%;
+      }
+
+      // padding: 10px 20px;
+
+      input.price {
+        text-align: center;
+      }
+
+      p.text {
+        text-align: left;
+      }
+
+      img {
+        max-width: 100px;
+        border-bottom: 3px solid black;
+      }
+
+      textarea {
+        resize: none;
+      }
+
+      .actions {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+
+    .save-excel {
+      width: 40px;
+      position: relative;
+      bottom: 2px;
+      display: flex;
+      align-items: center;
+  
+      button {
+        width: 100%;
+        border: none;
+        background-color: transparent;
+  
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

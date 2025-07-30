@@ -6,13 +6,21 @@ const URL_DELETE_SHOP = '/api/shops';
 /* JQuery */
 
 $(async () => {
-  $('table#shops .data').on('keyup', async function() {
+  $('table#shops .data').on('blur', async function() {
     const key = $(this).parent().attr('class');
     const shopId = $(this).closest('tr').attr('id').split('_')[1];
 
-    const resultChange = await updateShopRequest(shopId, {
-      [key]: $(this).val(),
-    });
+    try {
+      const resultChange = await updateShopRequest(shopId, {
+        [key]: $(this).val(),
+      });
+
+      if (resultChange) {
+        addAlert('success', 'Запис оновлено');
+      }
+    } catch (err) {
+      addAlert('error', 'Не вдалося оновити запис');
+    }
   });
 
   $('table#shops .actions button').on('click', async function() {
@@ -21,10 +29,15 @@ $(async () => {
     if (confirm(`Підтвердіть видалення магазину ${name}`)) {
       const shopId = $(this).closest('tr').attr('id').split('_')[1];
 
-      const resultDelete = await deleteShopRequest(shopId);
+      try {
+        const resultDelete = await deleteShopRequest(shopId);
 
-      if (resultDelete) {
-        $(this).closest('tr').remove();
+        if (resultDelete) {
+          $(this).closest('tr').remove();
+          addAlert('success', 'Запис видалено');
+        }
+      } catch (err) {
+        addAlert('error', 'Не вдалося видалити запис');
       }
     }
   });

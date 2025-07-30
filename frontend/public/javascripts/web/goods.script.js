@@ -1,73 +1,140 @@
 /* Constants */
 
 const URL_CREATE_EXCEL_FILE = '/api/excel';
-const URL_UPDATE_SHOP_GOOD = '/api/shops/goods';
+const URL_GET_SHOP_GOODS = '/api/shops/goods';
+const URL_UPDATE_SHOP_GOODS = '/api/shops/goods';
 const URL_DELETE_SHOP_GOOD = '/api/shops/goods';
 
 /* JQuery */
 
 $(async () => {
-  $('table#goods td .full-height').each((i, e) => {
-    const parentHeight = $(e).parent().height();
-    $(e).height(parentHeight)
-  });
+  $('#save button')
+    .on('click', async () => {
+      const $items = $('.table-goods .table-body .item');
 
-  $('table#goods .data').on('keyup', async function() {
-    const key = $(this).parent().attr('class');
-    const shopGoodId = $(this).closest('tr').attr('id').split('_')[1];
+      const data = [];
 
-    const resultChange = await updateShopGoodRequest(shopGoodId, {
-      [key]: $(this).val(),
+      $items.each((i, item) => {
+        const $item = $(item);
+        const id = $item.attr('id').split('_')[1];
+
+        const $columns = $item.find('.column');
+
+        const uniqueId = $columns.eq(0).find('textarea').val();
+        const title = $columns.eq(1).find('textarea').val();
+        const shortDescription = $columns.eq(2).find('textarea').val();
+        const fullDescription = $columns.eq(3).find('textarea').val();
+        const price = $columns.eq(4).find('textarea').val();
+        const categories = $columns.eq(5).find('textarea').val();
+        const colors = $columns.eq(6).find('textarea').val();
+        const sizes = $columns.eq(7).find('textarea').val();
+
+        const attributes = {};
+        const attributesColumns = $columns.eq(8).find('.input-group');
+
+        attributesColumns.each((i2, attribute) => {
+          const $attribute = $(attribute);
+
+          const key = $attribute.find('span').text();
+          const name = $attribute.find('input.name').val();
+          const value = $attribute.find('input.value').val();
+
+          if (name && value) {
+            attributes[key] = [name, value];
+          }
+        });
+        
+
+        data.push({
+          _id: id,
+          unique_id: uniqueId,
+          title,
+          short_description: shortDescription,
+          full_description: fullDescription,
+          price,
+          categories: categories !== '' ? categories.split(',').map(e => e.trim()) : [],
+          colors: colors !== '' ? colors.split(',').map(e => e.trim()) : [],
+          sizes: sizes !== '' ? sizes.split(',').map(e => e.trim()) : [],
+          attributes,
+        });
+      });
+
+      try {
+        const resultChange = await updateShopGoodsRequest(data); 
+
+        if (resultChange) {
+          addAlert('success', 'Данi оновлено');
+        }
+      } catch (err) {
+        addAlert('error', 'Не вдалося оновити данi');
+      }
     });
-  });
 
-  $('table#goods .actions button').on('click', async function() {
-    const title = $(this).closest('tr').find('td.title input').val();
+  $('.table-goods .actions button').on('click', async function() {
+    const $item = $(this).closest('.item');
+
+    const title = $item.find('.title textarea').val();
 
     if (confirm(`Підтвердіть видалення товару ${title}`)) {
-      const shopGoodId = $(this).closest('tr').attr('id').split('_')[1];
+      const shopGoodId = $item.attr('id').split('_')[1];
 
-      const resultDelete = await deleteShopGoodRequest(shopGoodId);
+      try {
+        const resultDelete = await deleteShopGoodRequest(shopGoodId);
 
-      if (resultDelete) {
-        $(this).closest('tr').remove();
+        if (resultDelete) {
+          $item.remove();
+          addAlert('success', 'Запис видалено');
+        }
+      } catch (err) {
+        addAlert('error', 'Не вдалося видалити запис');
       }
     }
   });
 
   $('.save-excel')
     .on('click', async () => {
-      const goodsHistory = [];
+      const shopId = new URL(window.location.href).searchParams.get('shop_id');
+      const goods = await getShopGoodsRequest(shopId);
 
-      $('table#goods tr').each((i, e) => {
-        if (i === 0) {
-          return;
-        }
+      const tableBody = [];
+      const tableHeaders = ['#', 'ProductTitle', 'ShortDescription', 'Price', 'FullDescr', 'Link', 'Images', 'Category', 'Attribute Name (pa_color)', 'Attribute Value (pa_color)', 'Attribute Name (pa_size)', 'Attribute Value (pa_size)', 'Attribute Name (custom_1)', 'Attribute Value (custom_1)', 'Attribute Name (custom_2)', 'Attribute Value (custom_2)', 'Attribute Name (custom_3)', 'Attribute Value (custom_3)', 'Attribute Name (custom_4)', 'Attribute Value (custom_4)', 'Attribute Name (custom_5)', 'Attribute Value (custom_5)'];
 
-        const images = [];
-        const title = $(e).find('td.title input').val().trim();
-        const price = $(e).find('td.price input').val().trim();
-        const attributes = $(e).find('td.attributes textarea').val().trim();
-        const description = $(e).find('td.description textarea').val().trim();
-        const text = $(e).find('td.text p').text().trim();
-        const link = $(e).find('a.link').attr('href');
+      goods.forEach((g, i) => {
+        tableBody.push([
+          g.unique_id,
+          g.title,
+          g.short_description,
+          g.price,
+          g.full_description,
+          g.link,
+          g.images.join(','),
+          g.categories.join(','),
+          g.colors.length ? 'Колір' : '',
+          g.colors.length ? g.colors.join('|') : '',
+          g.sizes.length ? 'Розмір' : '',
+          g.sizes.length ? g.sizes.join('|') : '',
 
-        $(e).find('td.images img').each((i2, i) => {
-          images.push($(i).attr('src'));
-        });
+          g.attributes['custom_1'].length ? g.attributes['custom_1'][0] : '',
+          g.attributes['custom_1'].length ? g.attributes['custom_1'][1] : '',
 
-        goodsHistory.push({
-          title, price, attributes, description, text, link,
-          images
-        });
+          g.attributes['custom_2'].length ? g.attributes['custom_2'][0] : '',
+          g.attributes['custom_2'].length ? g.attributes['custom_2'][1] : '',
+
+          g.attributes['custom_3'].length ? g.attributes['custom_3'][0] : '',
+          g.attributes['custom_3'].length ? g.attributes['custom_3'][1] : '',
+
+          g.attributes['custom_4'].length ? g.attributes['custom_4'][0] : '',
+          g.attributes['custom_4'].length ? g.attributes['custom_4'][1] : '',
+
+          g.attributes['custom_5'].length ? g.attributes['custom_5'][0] : '',
+          g.attributes['custom_5'].length ? g.attributes['custom_5'][1] : '',
+        ]);
       });
 
-      if (!goodsHistory.length) {
-        return;
-      }
-
-      const preparedData = prepareDataForExcelFile(goodsHistory);
-      await createExcelFile(preparedData);
+      await createExcelFile({
+        tableBody,
+        tableHeaders,
+      });
     });
 });
 
@@ -99,47 +166,12 @@ const createExcelFile = async ({ tableHeaders, tableBody }) => {
   return true;
 };
 
-const prepareDataForExcelFile = (goods) => {
-  const tableBody = [];
-  const tableHeaders = ['#', 'Заголовок', 'Опис', 'Ціна', 'Атрибути', 'Повний опис', 'Посилання', 'Зображення'];
+const getShopGoodsRequest = async (shopId) => {
+  return sendGetRequest(URL_GET_SHOP_GOODS, { shop_id: shopId });
+};
 
-  goods.forEach((g, i) => {
-    const title = g.title || '';
-    const price = g.price || '';
-    const attributes = g.attributes || '';
-    const description = g.description || '';
-
-    console.log([
-      i + 1,
-      title,
-      description,
-      price,
-      attributes,
-      g.text,
-      g.link,
-      g.images.join(',')
-    ]);
-
-    tableBody.push([
-      i + 1,
-      title,
-      description,
-      price,
-      attributes,
-      g.text,
-      g.link,
-      g.images.join(',')
-    ]);
-  });
-
-  return {
-    tableBody,
-    tableHeaders,
-  };
-}
-
-const updateShopGoodRequest = async (shopGoodId, changes) => {
-  return sendPutRequest(URL_UPDATE_SHOP_GOOD, { shop_good_id: shopGoodId, changes });
+const updateShopGoodsRequest = async (changes) => {
+  return sendPutRequest(URL_UPDATE_SHOP_GOODS, { changes });
 };
 
 const deleteShopGoodRequest = async (shopGoodId) => {

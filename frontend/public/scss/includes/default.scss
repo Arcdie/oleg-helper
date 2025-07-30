@@ -11,3 +11,58 @@ body {
 .back {
   margin-bottom: 10px;
 }
+
+.alerts {
+  width: 20%;
+  max-width: 310px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  padding: 25px 25px;
+
+  .alert {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    background: rgba(17, 21, 20, 0.70);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    margin-bottom: 15px;
+
+    &.success {
+      border-color: #00C37C;
+    }
+
+    &.warning {
+      border-color: #F3BA2F;
+    }
+
+    &.error {
+      border-color: #FF1313;
+    }
+
+    svg {
+      min-width: 17px;
+      min-height: 17px;
+    }
+
+    .alert-content {
+      padding: 0 10px;
+
+      p {
+        font-size: 13px;
+        color: white;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .close {
+      margin-left: auto;
+      padding: 0;
+    }
+  }
+}

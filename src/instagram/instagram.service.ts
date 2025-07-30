@@ -6,16 +6,15 @@ import { getQueue, getUniqueId } from '../libs/helpers';
 import { appService } from '../app/app.service';
 import { shopsService } from '../shops/shops.service';
 import { imageService } from '../images/image.service';
-import { chatGPTService } from '../chatgpt/chatgpt.service';
 import { websocketManager } from '../websockets/websocket.manager';
 import { shopGoodsService } from '../shop-goods/shop-goods.service';
 import { cloudflareService } from '../cloudflare/cloudflare.service';
 
-import { POSTS_PER_REQUEST } from './instagram.constants';
-
-import { IShopGood } from '../shop-goods/shop-goods.model';
-import { IGetPostsResponse } from './interfaces/get-posts.response';
 import { IShopEntity } from '../shops/shops.model';
+import { ILightShopGood } from '../shop-goods/shop-goods.model';
+import { IGetPostsResponse } from './interfaces/get-posts.response';
+
+import { POSTS_PER_REQUEST } from './instagram.constants';
 
 class InstagramService {
   private parseUrl = 'https://www.instagram.com/api/graphql';
@@ -54,7 +53,7 @@ class InstagramService {
     clientId: string,
     shop: IShopEntity,
     data: {
-      goods: IShopGood[];
+      goods: ILightShopGood[];
       isError: boolean;
       isFinished: boolean;
     },
@@ -75,10 +74,6 @@ class InstagramService {
     for await (const e of queue) {
       await Promise.all(
         e.map(async (good) => {
-          if (!good.text) {
-            return;
-          }
-
           await Promise.all(
             good.images.map(async (imageLink) => {
               const imageName = `${getUniqueId()}.jpg`;
@@ -107,37 +102,19 @@ class InstagramService {
             return value ? cloudflareService.getImageUrl(value) : '';
           });
 
-          try {
-            const chatData = await chatGPTService.sendMessage(good.text);
+          await shopGoodsService.create({
+            ...good,
 
-            const title = chatData?.title || '[Без назви]';
-            const price = String(
-              chatData?.price
-                ? !isNaN(parseFloat(chatData.price))
-                  ? parseFloat(chatData.price)
-                  : 100
-                : 100,
-            );
+            unique_id: getUniqueId(),
+            title: 'Без назви',
+            short_description: '',
+            price: '0',
 
-            await shopGoodsService.create({
-              shop_id: shop._id,
-              images: good.images,
-              link: good.link,
-              text: good.text,
-
-              title,
-              price,
-              description: chatData?.pretty_description,
-              attributes: chatData?.attributes,
-            });
-
-            good.title = title;
-            good.price = price;
-            good.description = chatData?.pretty_description;
-            good.attributes = chatData?.attributes;
-          } catch (err) {
-            console.log('Error happened while sending message to chatgpt', err);
-          }
+            colors: [],
+            sizes: [],
+            categories: [],
+            attributes: {},
+          });
 
           websocketManager.sendMessageToClient(
             clientId,
@@ -239,10 +216,10 @@ class InstagramService {
         }
 
         return {
-          link: e.node.code,
-          text: e.node.caption?.text || '',
-          images,
           shop_id: shop._id,
+          link: e.node.code,
+          full_description: e.node.caption?.text || '',
+          images,
         };
       });
 

@@ -12,6 +12,53 @@ body {
   margin-bottom: 10px;
 }
 
+.alerts {
+  width: 20%;
+  max-width: 310px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  padding: 25px 25px;
+}
+.alerts .alert {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  background: rgba(17, 21, 20, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+.alerts .alert.success {
+  border-color: #00C37C;
+}
+.alerts .alert.warning {
+  border-color: #F3BA2F;
+}
+.alerts .alert.error {
+  border-color: #FF1313;
+}
+.alerts .alert svg {
+  min-width: 17px;
+  min-height: 17px;
+}
+.alerts .alert .alert-content {
+  padding: 0 10px;
+}
+.alerts .alert .alert-content p {
+  font-size: 13px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.alerts .alert .close {
+  margin-left: auto;
+  padding: 0;
+}
+
 .page.main .search {
   display: flex;
   justify-content: center;
@@ -101,63 +148,17 @@ body {
   margin-top: 20px;
 }
 
-.page.shop-goods table {
-  width: 100%;
-  text-align: center;
-}
-.page.shop-goods table th.id {
-  width: 1%;
-}
-.page.shop-goods table th.title {
-  width: 10%;
-}
-.page.shop-goods table th.description {
-  width: 20%;
-}
-.page.shop-goods table th.price {
-  width: 10%;
-}
-.page.shop-goods table th.attributes {
-  width: 10%;
-}
-.page.shop-goods table th.text {
-  width: 20%;
-}
-.page.shop-goods table th.actions {
-  width: 10%;
-}
-.page.shop-goods table th.images {
-  width: 10%;
-}
-.page.shop-goods table td {
-  padding: 10px 20px;
-}
-.page.shop-goods table td input.price {
-  text-align: center;
-}
-.page.shop-goods table td p.text {
-  text-align: left;
-}
-.page.shop-goods table td img {
-  max-width: 100px;
-  border-bottom: 3px solid black;
-}
-.page.shop-goods table td textarea {
-  resize: none;
-}
-.page.shop-goods table td .actions {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 .page.shop-goods nav {
   display: flex;
   justify-content: space-between;
 }
+.page.shop-goods nav > div {
+  display: flex;
+}
 .page.shop-goods nav .save-excel {
-  width: 40px;
+  width: 50px;
   position: relative;
-  bottom: 2px;
+  bottom: 5px;
   display: flex;
   align-items: center;
 }
@@ -169,6 +170,70 @@ body {
 .page.shop-goods nav .save-excel button img {
   width: 100%;
   height: 100%;
+}
+.page.shop-goods .table-goods {
+  max-width: 100%;
+  overflow-x: scroll;
+}
+.page.shop-goods .table-goods .item {
+  display: flex;
+}
+.page.shop-goods .table-goods .item .column {
+  min-width: 400px;
+}
+.page.shop-goods .table-goods .table-header {
+  border-left: 1px solid black;
+}
+.page.shop-goods .table-goods .table-header .item .column {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+.page.shop-goods .table-goods .table-header .item .column h4 {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+.page.shop-goods .table-goods .table-header .item .column.id h4 {
+  text-align: left;
+}
+.page.shop-goods .table-goods .table-body .item:last-child .column {
+  border-bottom: none;
+}
+.page.shop-goods .table-goods .table-body .item .column {
+  height: 400px;
+  border-bottom: 1px solid black;
+}
+.page.shop-goods .table-goods .table-body .item .column textarea {
+  height: 100%;
+  resize: none;
+  outline: none;
+  border-radius: 0;
+}
+.page.shop-goods .table-goods .table-body .item .column textarea:focus {
+  box-shadow: none;
+}
+.page.shop-goods .table-goods .table-body .item .column img {
+  width: 100%;
+}
+.page.shop-goods .table-goods .table-body .item .column.attributes .input-group {
+  height: 20%;
+}
+.page.shop-goods .table-goods .table-body .item .column.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+.page.shop-goods .table-goods .table-body .item .column.images {
+  overflow-y: scroll;
+}
+.page.shop-goods .table-goods .table-body .item .column.images img {
+  border-bottom: 3px solid black;
+}
+.page.shop-goods .table-goods .table-body .item .column.images img:last-child {
+  border-bottom: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

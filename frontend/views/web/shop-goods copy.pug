@@ -1,0 +1,104 @@
+extends ../app
+
+block variables
+  -
+    const pageTitle = `Товари`;
+
+block content
+  .page.shop-goods
+    nav
+      .back
+        a.btn.btn-dark(href='/shops') Назад
+
+      .save-excel
+          button
+            img(src='/images/excel.png', alt='excel')
+
+    table#goods
+      tr
+        th.id #
+        th.title Заголовок
+        th.short_description Короткий опис
+        th.full_description Повний опис
+        th.price Ціна
+        th.categories Категорії
+        th.color Колір
+        th.size Розмір
+        th.attributes Атрибути
+        th.images Зображення
+        th.actions
+
+        //- th.custom_1 custom_1
+        //- th.custom_2 custom_2
+        //- th.custom_3 custom_3
+        //- th.custom_4 custom_4
+        //- th.custom_5 custom_5
+
+      each good, index in goods
+        tr(id= `good_${good._id}`)
+          td
+            input.form-control.data(type='text', value= 1, title= 1)
+
+          td
+            input.form-control.data(type='text', value= good.title, title= good.title)
+
+          td
+            div
+              textarea.form-control.full-height.data #{good.description}
+
+          td
+            textarea.form-control.full-height.data #{good.text}
+            
+          td
+            input.price.form-control.data(type='text', value= good.price)
+          
+          td
+            textarea.form-control.full-height.data #{good.categories}
+
+          td
+            textarea.form-control.full-height.data #{good.categories}
+
+          td
+            textarea.form-control.full-height.data #{good.categories}
+
+          td
+
+          td.images
+            each src of good.images
+              img(src= src)
+
+          td.actions
+            .actions.full-height
+              a.btn.btn-primary.link(href= `https://www.instagram.com/p/${good.link}`, target='_blank') Перейти
+              button.btn.btn-danger Видалити
+
+        //- tr(id= `good_${good._id}`)
+        //-   td #{index + 1}
+
+        //-   td.title
+        //-     input.form-control.data(type='text', value= good.title, title= good.title)
+
+        //-   td.description
+        //-     textarea.form-control.full-height.data #{good.description}
+
+        //-   td.price
+        //-     input.price.form-control.data(type='text', value= good.price)
+
+        //-   td.attributes
+        //-     textarea.form-control.full-height.data #{good.attributes}
+
+        //-   td.text
+        //-     p.text #{good.text}
+          
+        //-   td.images
+        //-     each src of good.images
+        //-       img(src= src)
+
+        //-   td.actions
+        //-     .actions.full-height
+        //-       a.btn.btn-primary.link(href= `https://www.instagram.com/p/${good.link}`, target='_blank') Перейти
+        //-       button.btn.btn-danger Видалити
+
+block scripts
+  //- script(src='/javascripts/web/goods.script.js')
+  
